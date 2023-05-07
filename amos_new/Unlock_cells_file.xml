@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bulkCmConfigDataFile xmlns:un="utranNrm.xsd" xmlns:xn="genericNrm.xsd" xmlns:gn="geranNrm.xsd" xmlns="configData.xsd" xmlns:es="EricssonSpecificAttributes.16.21.xsd">
+    <fileHeader fileFormatVersion="32.615 V4.5" vendorName="Ericsson"/>
+    <configData dnPrefix="Undefined">
+        <xn:ManagedElement id="Standard_RadioNode_Node1" />
+
+        <!-- Search the ENM CLI Online Help Center for Sample 3GPP Import File -->
+
+    </configData>
+    <fileFooter dateTime="2017-04-04T15:27:07Z"/>
+</bulkCmConfigDataFile>

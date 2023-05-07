@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RbsSiteInstallationFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         xsi:noNamespaceSchemaLocation="SiteInstallation.xsd">
+   <Format revision="K"/>
+   <InstallationData tnPort="TN_A" vlanId="654" logicalName="%NodeName%">
+      <OamIpConfigurationData ipAddress="10.8.28.85/26"
+                              defaultRouter0="10.8.28.65"
+                              subnetMask="10.8.28.64/26">
+<!--Substitution variable="subnet_mask_router:vr_OAM" area="TRANSPORT" description="The subnet mask of router:vr_OAM."-->
+</OamIpConfigurationData>
+      <SmrsData password="%smrms_paas%" userName="%smrms_user%"  />
+   </InstallationData>
+</RbsSiteInstallationFile>

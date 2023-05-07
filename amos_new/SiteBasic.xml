@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<capabilities>
+		<capability>urn:ietf:params:netconf:base:1.0</capability>
+	</capabilities>
+</hello>
+]]>]]>
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0"
+     message-id="Setting of the License Manager Fingerprint, which triggers installation of the Licence Key File">
+   <edit-config>
+      <target>
+         <running/>
+      </target>
+      <config xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+         <ManagedElement xmlns="urn:com:ericsson:ecim:ComTop">
+            <managedElementId>1</managedElementId>
+            <SystemFunctions>
+               <systemFunctionsId>1</systemFunctionsId>
+               <Lm>
+                  <lmId>1</lmId>
+                  <fingerprint>TEST01</fingerprint>
+               </Lm>
+            </SystemFunctions>
+         </ManagedElement>
+      </config>
+   </edit-config>
+</rpc>
+]]>]]>
+<rpc message-id="Closing" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<close-session/>
+</rpc>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<capabilities>
+		<capability>urn:ietf:params:netconf:base:1.0</capability>
+	</capabilities>
+</hello>
+]]>]]>
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0"
+     message-id="Activation of key transport licensed features needed for connectivity with the OSS. Remaining licenses should be activated in a later stage">
+   <edit-config>
+      <target>
+         <running/>
+      </target>
+      <config xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+         <ManagedElement xmlns="urn:com:ericsson:ecim:ComTop">
+            <managedElementId>1</managedElementId>
+            <SystemFunctions>
+               <systemFunctionsId>1</systemFunctionsId>
+                <Lm xmlns="urn:com:ericsson:ecim:RcsLM">
+                  <lmId>1</lmId>
+                  <!--Include appropriate license activations below if needed. Note that the license for 10G port capability is an HWAC license-->
+                  <!--does not need to be activated. However it must be present in the LKF file if 10G capability is needed.CXC number for critical transport features:-->
+                  <!--Virtual router: CXC4011823, IPv6:CXC4040006, IPsec:CXC4040004, BFD: CXC4011707, Link aggregation:CXC4040002-->
+                  <!--VR license is always included in RBS configurations and can be activated-->
+                  <!--Virtual router license-->
+                  <FeatureState>
+                     <featureStateId>CXC4011823</featureStateId>
+                     <featureState>ACTIVATED</featureState>
+                  </FeatureState>
+                  <FeatureState>
+                     <featureStateId>CXC4040008</featureStateId>
+                     <featureState>ACTIVATED</featureState>
+                  </FeatureState>               
+				</Lm>
+            </SystemFunctions>
+         </ManagedElement>
+      </config>
+   </edit-config>
+</rpc>
+]]>]]>
+<rpc message-id="Closing" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<close-session/>
+</rpc>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<capabilities>
+		<capability>urn:ietf:params:netconf:base:1.0</capability>
+	</capabilities>
+</hello>
+]]>]]>
+<rpc message-id="IU_activate" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<action xmlns="urn:com:ericsson:ecim:1.0">
+		<data>
+			<ManagedElement>
+				<managedElementId>1</managedElementId>
+				<SystemFunctions>
+					<systemFunctionsId>1</systemFunctionsId>
+					<Lm>
+						<lmId>1</lmId>
+						<IntegrationUnlock>
+							<integrationUnlockId>1</integrationUnlockId>
+							<activate />
+						</IntegrationUnlock>
+					</Lm>
+				</SystemFunctions>
+			</ManagedElement>
+		</data>
+	</action>
+</rpc>
+]]>]]>
+<rpc message-id="Closing" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<close-session/>
+</rpc>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<capabilities>
+		<capability>urn:ietf:params:netconf:base:1.0</capability>
+	</capabilities>
+</hello>
+]]>]]>
+<rpc message-id="Router_Config" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<edit-config>
+		<target>
+			<running />
+		</target>
+		<config xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+			<ManagedElement xmlns="urn:com:ericsson:ecim:ComTop">
+				<managedElementId>1</managedElementId>
+				<SystemFunctions>
+					<systemFunctionsId>1</systemFunctionsId>
+					<SecM xmlns="urn:com:ericsson:ecim:RcsSecM">
+						<secMId>1</secMId>
+						<UserManagement>
+							<userManagementId>1</userManagementId>
+							<LdapAuthenticationMethod xmlns="urn:com:ericsson:ecim:RcsLdapAuthentication">
+								<ldapAuthenticationMethodId>1</ldapAuthenticationMethodId>
+								<administrativeState>UNLOCKED</administrativeState>
+								<Ldap>
+									<ldapId>1</ldapId>
+									<EricssonFilter>
+										<ericssonFilterId>1</ericssonFilterId>
+										<targetBasedAccessControl>LOCKED</targetBasedAccessControl>
+									</EricssonFilter>
+								</Ldap>
+							</LdapAuthenticationMethod>
+                     <UserIdentity xmlns="urn:com:ericsson:ecim:RcsUser">
+                        <userIdentityId>1</userIdentityId>
+                        <MaintenanceUser><!--At least the first maintenance user should be defined during AI since it's not possible to do later.-->
+                           <maintenanceUserId>1</maintenanceUserId>
+                           <!--User name and password to use when logging in as a maintenance user over SSH.-->
+                           <!--Can be ommitted if only maintenance user over TLS will be used.-->
+                           <userName>rbs</userName>
+                           <!--Substitution variable="username_maint_user" area="COMMON" description="Defines the name of the maintenance user."-->
+                           <password>
+                              <cleartext/>
+                              <password>rbs</password>
+                              <!--Substitution variable="password_maint_user" area="COMMON" description="Sets the SSH-based login password.
+                              If the password is not set, SSH-based login is not available for the maintenance user.
+                              The password must contain at least three lower-case, three upper-case, two numeric, and one special character."-->
+                           </password>
+                           <!--Full subject name of a certificate to use when logging in as a maintenance user over TLS.-->
+                           <!--Can be ommitted if only maintenance user over SSH will be used.Example subjectName: CN=Maintuser-->
+                        </MaintenanceUser>
+						<!--LocalAccessM xmlns="urn:com:ericsson:ecim:RcsLA">
+							<localAccessMId>1</localAccessMId>
+							<emergencyRestore>WEBENABLED</emergencyRestore>
+							<LocalAccess>
+								<localAccessId>cmSsh</localAccessId>
+								<administrativeState>UNLOCKED</administrativeState>
+							</LocalAccess>
+							<LocalAccess>
+								<localAccessId>cmTls</localAccessId>
+								<administrativeState>UNLOCKED</administrativeState>
+							</LocalAccess>
+							<LocalAccess>
+								<localAccessId>web</localAccessId>
+								<administrativeState>UNLOCKED</administrativeState>
+							</LocalAccess>
+						</LocalAccessM-->
+					</SecM>
+               <SysM xmlns="urn:com:ericsson:ecim:RcsSysM">
+                  <sysMId>1</sysMId>
+                  <TimeM xmlns="urn:com:ericsson:ecim:RcsTimeM">
+                     <timeMId>1</timeMId>
+                     <Ntp>
+                        <ntpId>1</ntpId>
+                        <NtpServer>
+                           <ntpServerId>1</ntpServerId>
+                           <serverAddress>10.100.137.67</serverAddress>
+                           <!--Substitution variable="Time_of_day_NTP_server_address_1" area="COMMON" description="Sets the IP address of the NTP server that is used for time-of-day synchronization.
+                           Must be set to a valid IP address or DNS domain name."-->
+                           <administrativeState>UNLOCKED</administrativeState>
+                        </NtpServer>
+                        <NtpServer>
+                           <ntpServerId>2</ntpServerId>
+                           <serverAddress>10.100.110.68</serverAddress>
+                           <!--Substitution variable="Time_of_day_NTP_server_address_2" area="COMMON" description="Sets the IP address of the NTP server that is used for time-of-day synchronization.
+                           Must be set to a valid IP address or DNS domain name."-->
+                           <administrativeState>UNLOCKED</administrativeState>
+                        </NtpServer>
+                     </Ntp>
+                  </TimeM>
+						<CliTls>
+							<cliTlsId>1</cliTlsId>
+                     <trustCategory>ManagedElement=1,SystemFunctions=1,SecM=1,CertM=1,TrustCategory=1</trustCategory>
+                     <nodeCredential>ManagedElement=1,SystemFunctions=1,SecM=1,CertM=1,NodeCredential=3</nodeCredential>
+							<administrativeState>UNLOCKED</administrativeState>
+							<port>9830</port>
+						</CliTls>
+						<HttpM xmlns="urn:com:ericsson:ecim:RcsHttpM">
+							<httpMId>1</httpMId>
+							<Https>
+								<httpsId>1</httpsId>
+                        <trustCategory>ManagedElement=1,SystemFunctions=1,SecM=1,CertM=1,TrustCategory=1</trustCategory>
+                        <nodeCredential>ManagedElement=1,SystemFunctions=1,SecM=1,CertM=1,NodeCredential=3</nodeCredential>
+							</Https>
+						</HttpM>
+						<!--NetconfTls>
+							<netconfTlsId>1</netconfTlsId>
+                        <trustCategory>ManagedElement=1,SystemFunctions=1,SecM=1,CertM=1,TrustCategory=1</trustCategory>
+                        <nodeCredential>ManagedElement=1,SystemFunctions=1,SecM=1,CertM=1,NodeCredential=3</nodeCredential>
+							<administrativeState>UNLOCKED</administrativeState>
+							<port>6513</port>
+						</NetconfTls-->
+                  <CliTls>
+                     <cliTlsId>1</cliTlsId>
+                     <administrativeState>UNLOCKED</administrativeState>
+
+                  </CliTls>
+                  <HttpM>
+                     <httpMId>1</httpMId>
+                     <Https>
+                        <httpsId>1</httpsId>
+
+                     </Https>
+                  </HttpM>
+               </SysM>
+					<SysM xmlns="urn:com:ericsson:ecim:RcsSysM">
+						<sysMId>1</sysMId>
+						<OamAccessPoint>
+							<oamAccessPointId>1</oamAccessPointId>
+							<accessPoint>ManagedElement=1,Transport=1,Router=vr_OAM,InterfaceIPv4=1,AddressIPv4=1</accessPoint>
+						</OamAccessPoint>
+
+					</SysM>
+				</SystemFunctions>
+            <Equipment>
+               <equipmentId>1</equipmentId>
+               <FieldReplaceableUnit xmlns="urn:com:ericsson:ecim:ReqFieldReplaceableUnit">
+                  <fieldReplaceableUnitId>BB5216</fieldReplaceableUnitId>
+                  <TnPort>
+                     <tnPortId>TN_A</tnPortId>
+                  </TnPort>
+                  <SyncPort>
+                     <syncPortId>1</syncPortId>
+                  </SyncPort>
+               </FieldReplaceableUnit>
+            </Equipment>
+				<!--OAM ROUTER config START-->
+				<Transport>
+					<transportId>1</transportId>
+               <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+               <!--Configure Ethernet ports-->
+               <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+               <!--- - - - - -Ethernet port for TN_B - - - - - - - -->
+               <EthernetPort xmlns="urn:com:ericsson:ecim:RtnL2EthernetPort">
+                  <ethernetPortId>TN_A</ethernetPortId>
+                  <administrativeState>UNLOCKED</administrativeState>
+                  <encapsulation>ManagedElement=1,Equipment=1,FieldReplaceableUnit=BB5216,TnPort=TN_A</encapsulation>
+                  <admOperatingMode>1G_FULL</admOperatingMode>
+				  <!--autoNegEnable>%autoNag%</autoNegEnable-->
+               </EthernetPort>
+               <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+               <!--Configure Bridge-->
+               <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+               <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+               <!--Configure Routers and VlanPorts- -->
+               <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+               <!--- - - - - - - - VlanPort towards port TN_B used by Router: vr_OAM-->
+               <VlanPort xmlns="urn:com:ericsson:ecim:RtnL2VlanPort">
+                  <vlanPortId>VLAN_OAM</vlanPortId>
+                  <encapsulation>ManagedElement=1,Transport=1,EthernetPort=TN_A</encapsulation>
+                  <vlanId>650</vlanId>
+                  <!--Substitution variable="vlan_id_if_1_router:vr_OAM" area="TRANSPORT" description="The VLAN identity that shall be used for router:vr_OAM.
+                  Valid value is an integer in the range 1-4094."-->
+                  <!--isTagged>true</isTagged-->
+               </VlanPort>			   
+               <!--- - - - - Create Router vr_OAM and all it's contained objects - - - - - -->
+               <Router xmlns="urn:com:ericsson:ecim:RtnL3Router">>
+                  <routerId>vr_OAM</routerId>
+                  <InterfaceIPv4>
+                     <interfaceIPv4Id>1</interfaceIPv4Id>
+                     <AddressIPv4 xmlns="urn:com:ericsson:ecim:RtnL3InterfaceIPv4">
+                        <addressIPv4Id>1</addressIPv4Id>
+                        <address>10.8.28.85/26</address>
+                        <!--Substitution variable="address_router:vr_OAM" area="TRANSPORT" description="The local IP address on router:vr_OAM
+                        Should be a valid IPv4 address in dotted decimal notation excluding the network prefix length(i.e. 134.45.34.45). The value must be unique." flags="UNIQUE"-->
+                        <!--Substitution variable="network_prefix_length:vr_OAM" area="TRANSPORT" description="The network prefix length of router vr_OAM
+                        Valid value is a number in the range 1-31"-->
+                     </AddressIPv4>
+                     <encapsulation>ManagedElement=1,Transport=1,VlanPort=VLAN_OAM</encapsulation>
+                  </InterfaceIPv4>
+                  <RouteTableIPv4Static xmlns="urn:com:ericsson:ecim:RtnRoutesStaticRouteIPv4">
+                     <routeTableIPv4StaticId>1</routeTableIPv4StaticId>
+                     <Dst>
+                        <dstId>default</dstId>
+                        <NextHop>
+                           <nextHopId>1</nextHopId>
+                           <address>10.8.28.65</address>
+                           <!--Substitution variable="default_route_router:vr_OAM" area="TRANSPORT" description="The default route for router:vr_OAM.
+                           Should be a valid IPv4 address in dotted decimal notation excluding the network prefix length(i.e. 134.45.34.45)."-->
+                        </NextHop>
+                        <dst>0.0.0.0/0</dst>
+                     </Dst>
+                  </RouteTableIPv4Static>
+               </Router>
+				</Transport>
+				<!--OAM ROUTER config END-->
+				<!--UP ROUTER config START-->
+				<Transport>
+					<transportId>1</transportId>
+               <!--- - - - - - - - VlanPort towards port TN_B used by Router: LTE-->
+               <VlanPort xmlns="urn:com:ericsson:ecim:RtnL2VlanPort">
+                  <vlanPortId>VLAN_IUB</vlanPortId>
+                  <encapsulation>ManagedElement=1,Transport=1,EthernetPort=TN_A</encapsulation>
+                  <vlanId>634</vlanId>
+                  <!--Substitution variable="vlan_id_if_1_router:LTE" area="TRANSPORT" description="The VLAN identity that shall be used for router:LTE.
+                  Valid value is an integer in the range 1-4094."-->
+                  <!--isTagged>true</isTagged-->
+               </VlanPort>
+               <!--- - - - - Create Router LTE and all it's contained objects - - - - - -->
+               <Router xmlns="urn:com:ericsson:ecim:RtnL3Router">
+                  <routerId>vr_Traffic3G</routerId>
+                  <InterfaceIPv4 xmlns="urn:com:ericsson:ecim:RtnL3InterfaceIPv4">
+                     <interfaceIPv4Id>1</interfaceIPv4Id>
+                     <AddressIPv4>
+                        <addressIPv4Id>1</addressIPv4Id>
+                        <address>10.8.24.85/26</address>
+                        <!--Substitution variable="address_router:LTE" area="TRANSPORT" description="The local IP address on router:LTE
+                        Should be a valid IPv4 address in dotted decimal notation excluding the network prefix length(i.e. 134.45.34.45)."-->
+                        <!--Substitution variable="network_prefix_length:LTE" area="TRANSPORT" description="The network prefix length of router LTE
+                        Valid value is a number in the range 1-31"-->
+                     </AddressIPv4>
+                     <encapsulation>ManagedElement=1,Transport=1,VlanPort=VLAN_IUB</encapsulation>
+                  </InterfaceIPv4>
+                  <RouteTableIPv4Static xmlns="urn:com:ericsson:ecim:RtnRoutesStaticRouteIPv4">
+                     <routeTableIPv4StaticId>1</routeTableIPv4StaticId>
+                     <Dst>
+                        <dstId>1</dstId>
+                        <NextHop>
+                           <nextHopId>1</nextHopId>
+                           <address>10.8.24.65</address>
+                           <!--Substitution variable="default_route_router:LTE" area="TRANSPORT" description="The default route for router:LTE.
+                           Should be a valid IPv4 address in dotted decimal notation excluding the network prefix length(i.e. 134.45.34.45)."-->
+                        </NextHop>
+                        <dst>0.0.0.0/0</dst>
+                     </Dst>
+                  </RouteTableIPv4Static>
+               </Router>
+					<!--UP ROUTER config END-->
+					<!-- Synchronization Start-->
+               <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+               <!--Configure Synchronization- - - - - - - -->
+               <!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+               <Synchronization xmlns="urn:com:ericsson:ecim:RsyncSynchronization">
+                  <synchronizationId>1</synchronizationId>
+                  <telecomStandard>OPTION_I</telecomStandard>
+                  <RadioEquipmentClock xmlns="urn:com:ericsson:ecim:RsyncRadioEquipmentClock">
+                     <radioEquipmentClockId>1</radioEquipmentClockId>
+                     <selectionProcessMode>1</selectionProcessMode>
+                     <minQualityLevel/>
+                     <RadioEquipmentClockReference>
+                        <radioEquipmentClockReferenceId>1</radioEquipmentClockReferenceId>
+                        <administrativeState>UNLOCKED</administrativeState>
+                        <priority>1</priority>
+                        <adminQualityLevel/>
+                        <!--encapsulation>ManagedElement=TEST01,Transport=1,Ntp=1,NtpFrequencySync=7</encapsulation-->
+                     </RadioEquipmentClockReference>
+					 <RadioEquipmentClockReference>
+                        <radioEquipmentClockReferenceId>2</radioEquipmentClockReferenceId>
+                        <administrativeState>UNLOCKED</administrativeState>
+                        <priority>1</priority>
+                        <adminQualityLevel/>
+                        <!--encapsulation>ManagedElement=TEST01,Transport=1,Ntp=1,NtpFrequencySync=8</encapsulation-->
+                     </RadioEquipmentClockReference>
+                  </RadioEquipmentClock>
+               </Synchronization>
+				</Transport>
+				<Equipment xmlns="urn:com:ericsson:ecim:ReqEquipment">
+					<equipmentId>1</equipmentId>
+					<FieldReplaceableUnit xmlns="urn:com:ericsson:ecim:ReqFieldReplaceableUnit">
+						<fieldReplaceableUnitId>1</fieldReplaceableUnitId>
+						<SyncPort xmlns="urn:com:ericsson:ecim:ReqSyncPort">
+							<syncPortId>SYNC</syncPortId>
+						</SyncPort>
+					</FieldReplaceableUnit>
+				</Equipment>
+				<Transport>
+					<transportId>1</transportId>
+					<!--Applicable for GPS only-->
+					<Synchronization xmlns="urn:com:ericsson:ecim:RsyncSynchronization">
+						<synchronizationId>1</synchronizationId>
+						<TimeSyncIO xmlns="urn:com:ericsson:ecim:RsyncTimeSyncIO">
+							<encapsulation>ManagedElement=1,Equipment=1,FieldReplaceableUnit=1,SyncPort=SYNC</encapsulation>
+							<timeSyncIOId>1</timeSyncIOId>
+						</TimeSyncIO>
+						<RadioEquipmentClock xmlns="urn:com:ericsson:ecim:RsyncRadioEquipmentClock">
+							<radioEquipmentClockId>1</radioEquipmentClockId>
+							<RadioEquipmentClockReference>
+								<administrativeState>UNLOCKED</administrativeState>
+								<encapsulation>ManagedElement=1,Transport=1,Synchronization=1,TimeSyncIO=1</encapsulation>
+								<holdOffTime>1000</holdOffTime>
+								<priority>1</priority>
+								<radioEquipmentClockReferenceId>GPS</radioEquipmentClockReferenceId>
+								<useQLFrom>RECEIVED_QL</useQLFrom>
+								<waitToRestoreTime>60</waitToRestoreTime>
+								<adminQualityLevel>
+									<qualityLevelValueOptionI>SSU_A</qualityLevelValueOptionI>
+									<qualityLevelValueOptionII>STU</qualityLevelValueOptionII>
+									<qualityLevelValueOptionIII>UNK</qualityLevelValueOptionIII>
+								</adminQualityLevel>
+							</RadioEquipmentClockReference>
+						</RadioEquipmentClock>
+						<TimeSyncIO xmlns="urn:com:ericsson:ecim:RsyncTimeSyncIO">
+							<timeSyncIOId>1</timeSyncIOId>
+							<GnssInfo xmlns="urn:com:ericsson:ecim:RsyncGnssInfo">
+								<gnssInfoId>1</gnssInfoId>
+							</GnssInfo>
+						</TimeSyncIO>
+					</Synchronization>
+				</Transport>
+				<!-- Synchronization END-->
+			</ManagedElement>
+		</config>
+	</edit-config>
+</rpc>
+]]>]]>
+<rpc message-id="Closing" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<close-session/>
+</rpc>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<capabilities>
+		<capability>urn:ietf:params:netconf:base:1.0</capability>
+	</capabilities>
+</hello>
+]]>]]>
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0"
+     message-id="Configure networkManagedElementId">
+   <edit-config>
+      <target>
+         <running/>
+      </target>
+      <config xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+         <ManagedElement xmlns="urn:com:ericsson:ecim:ComTop">
+            <managedElementId>1</managedElementId>
+            <networkManagedElementId>TEST01</networkManagedElementId>
+            <!--Substitution variable="node_logical_name" area="COMMON" description="Specifies the logical name of the node, as identified by the management system. The value must be unique." flags="UNIQUE"-->
+         </ManagedElement>
+      </config>
+   </edit-config>
+</rpc>
+]]>]]>
+<rpc message-id="Closing" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<close-session/>
+</rpc>
+]]>]]>

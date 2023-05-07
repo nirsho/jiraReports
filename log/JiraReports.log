@@ -1,0 +1,1537 @@
+[2021-01-04T18:24:44] DEBUG [JIRAREPORTS.main:208] JiraReports is starting ...
+[2021-01-04T18:24:44] INFO [JIRAREPORTS.retriveReports:129] Starting retriveReports from JIRA
+[2021-01-04T18:24:45] INFO [JIRAREPORTS.retriveReports:135] some issu occured with the JIRA API
+[2021-01-04T18:24:45] INFO [JIRAREPORTS.retriveReports:136] {"errors":[{"errorMessage":"Unsupported date format, make sure the date you entered is in the format yyyy-MM-dd"}],"reasonKey":"sd.project.reports.customdate.invalid.time.format","reasonCode":"400"}
+[2021-01-04T18:24:45] ERROR [JIRAREPORTS.<module>:256] Unhandled exception occured:
+[2021-01-04T18:24:45] ERROR [JIRAREPORTS.<module>:257] 'int' object is not iterable
+Traceback (most recent call last):
+  File "C:\Users\ebenitk\source\repos\JiraReports\JiraReports\JiraReports.py", line 253, in <module>
+    main()
+  File "C:\Users\ebenitk\source\repos\JiraReports\JiraReports\JiraReports.py", line 235, in main
+    images = generateGraphs(results)
+  File "C:\Users\ebenitk\source\repos\JiraReports\JiraReports\JiraReports.py", line 176, in generateGraphs
+    for rep in results:
+TypeError: 'int' object is not iterable
+[2021-01-04T18:26:34] DEBUG [JIRAREPORTS.main:208] JiraReports is starting ...
+[2021-01-04T18:26:34] INFO [JIRAREPORTS.retriveReports:129] Starting retriveReports from JIRA
+[2021-01-04T18:26:37] INFO [JIRAREPORTS.retriveReports:135] some issu occured with the JIRA API
+[2021-01-04T18:26:37] INFO [JIRAREPORTS.retriveReports:136] {"errors":[{"errorMessage":"Unsupported date format, make sure the date you entered is in the format yyyy-MM-dd"}],"reasonKey":"sd.project.reports.customdate.invalid.time.format","reasonCode":"400"}
+[2021-01-04T18:26:53] DEBUG [JIRAREPORTS.main:208] JiraReports is starting ...
+[2021-01-04T18:26:53] INFO [JIRAREPORTS.retriveReports:129] Starting retriveReports from JIRA
+[2021-01-04T18:26:54] INFO [JIRAREPORTS.retriveReports:135] some issu occured with the JIRA API
+[2021-01-04T18:26:54] INFO [JIRAREPORTS.retriveReports:136] {"errors":[{"errorMessage":"Unsupported date format, make sure the date you entered is in the format yyyy-MM-dd"}],"reasonKey":"sd.project.reports.customdate.invalid.time.format","reasonCode":"400"}
+[2021-01-04T18:27:25] DEBUG [JIRAREPORTS.main:208] JiraReports is starting ...
+[2021-01-04T18:27:25] INFO [JIRAREPORTS.retriveReports:129] Starting retriveReports from JIRA
+[2021-01-04T18:27:26] INFO [JIRAREPORTS.retriveReports:135] some issu occured with the JIRA API
+[2021-01-04T18:27:26] INFO [JIRAREPORTS.retriveReports:136] {"errors":[{"errorMessage":"Unsupported date format, make sure the date you entered is in the format yyyy-MM-dd"}],"reasonKey":"sd.project.reports.customdate.invalid.time.format","reasonCode":"400"}
+[2021-01-04T18:28:45] DEBUG [JIRAREPORTS.main:208] JiraReports is starting ...
+[2021-01-04T18:28:45] INFO [JIRAREPORTS.retriveReports:129] Starting retriveReports from JIRA
+[2021-01-04T18:28:46] INFO [JIRAREPORTS.retriveReports:135] some issu occured with the JIRA API
+[2021-01-04T18:28:46] INFO [JIRAREPORTS.retriveReports:136] {"errors":[{"errorMessage":"Unsupported date format, make sure the date you entered is in the format yyyy-MM-dd"}],"reasonKey":"sd.project.reports.customdate.invalid.time.format","reasonCode":"400"}
+[2021-01-04T18:31:01] DEBUG [JIRAREPORTS.main:208] JiraReports is starting ...
+[2021-01-04T18:31:01] INFO [JIRAREPORTS.retriveReports:129] Starting retriveReports from JIRA
+[2021-01-04T18:38:57] INFO [JIRAREPORTS.main:197] JiraReports is starting ...
+[2021-01-04T18:38:58] INFO [JIRAREPORTS.main:203] Starting config file parsing
+[2021-01-04T18:38:58] INFO [JIRAREPORTS.main:206] Finished config file parsing
+[2021-01-04T18:38:58] INFO [JIRAREPORTS.main:211] Start periodic procedure
+[2021-01-04T18:38:58] INFO [JIRAREPORTS.retriveReports:129] Starting retriveReports from JIRA
+[2021-01-04T18:39:06] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-01-04T18:39:09] INFO [JIRAREPORTS.main:234] Finished periodic procedure
+[2021-02-06T12:14:01] INFO [JIRAREPORTS.main:201] JiraReports is starting ...
+[2021-02-06T12:14:01] INFO [JIRAREPORTS.main:207] Starting config file parsing
+[2021-02-06T12:14:01] INFO [JIRAREPORTS.main:210] Finished config file parsing
+[2021-02-06T12:14:01] INFO [JIRAREPORTS.main:215] Start periodic procedure
+[2021-02-06T12:14:01] INFO [JIRAREPORTS.retriveReports:133] Starting retriveReports from JIRA
+[2021-02-06T12:14:01] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-02-06T12:14:01] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-02-06T12:14:02] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-02-06T12:14:03] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-02-06T12:21:41] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-02-06T12:21:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-02-06T12:21:43] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-02-06T12:21:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-02-06T12:21:45] INFO [JIRAREPORTS.main:238] Finished periodic procedure
+[2021-02-06T12:26:46] INFO [JIRAREPORTS.main:201] JiraReports is starting ...
+[2021-02-06T12:26:46] INFO [JIRAREPORTS.main:207] Starting config file parsing
+[2021-02-06T12:26:46] INFO [JIRAREPORTS.main:210] Finished config file parsing
+[2021-02-06T12:26:46] INFO [JIRAREPORTS.main:215] Start periodic procedure
+[2021-02-06T12:26:46] INFO [JIRAREPORTS.retriveReports:133] Starting retriveReports from JIRA
+[2021-02-06T12:26:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-02-06T12:26:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-02-06T12:26:47] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-02-06T12:26:48] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-02-06T12:26:51] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-02-06T12:26:51] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-02-06T12:26:51] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-02-06T12:26:51] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-02-06T12:26:53] INFO [JIRAREPORTS.main:238] Finished periodic procedure
+[2021-03-02T10:38:06] INFO [JIRAREPORTS.main:201] JiraReports is starting ...
+[2021-03-02T10:38:06] INFO [JIRAREPORTS.main:207] Starting config file parsing
+[2021-03-02T10:38:06] INFO [JIRAREPORTS.main:210] Finished config file parsing
+[2021-03-02T10:38:06] INFO [JIRAREPORTS.main:215] Start periodic procedure
+[2021-03-02T10:38:06] INFO [JIRAREPORTS.retriveReports:133] Starting retriveReports from JIRA
+[2021-03-02T10:38:06] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-03-02T10:38:07] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-03-02T10:38:08] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-03-02T10:38:08] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-03-02T10:38:11] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-03-02T10:38:11] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-03-02T10:38:11] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-03-02T10:38:11] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-03-02T10:38:13] INFO [JIRAREPORTS.main:238] Finished periodic procedure
+[2021-04-02T10:31:57] INFO [JIRAREPORTS.main:201] JiraReports is starting ...
+[2021-04-02T10:31:57] INFO [JIRAREPORTS.main:207] Starting config file parsing
+[2021-04-02T10:31:57] INFO [JIRAREPORTS.main:210] Finished config file parsing
+[2021-04-02T10:31:57] INFO [JIRAREPORTS.main:215] Start periodic procedure
+[2021-04-02T10:31:57] INFO [JIRAREPORTS.retriveReports:133] Starting retriveReports from JIRA
+[2021-04-02T10:31:57] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-04-02T10:31:58] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-04-02T10:31:59] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-04-02T10:32:00] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-04-02T10:32:06] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-04-02T10:32:06] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-04-02T10:32:06] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-04-02T10:32:06] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-04-02T10:32:08] INFO [JIRAREPORTS.main:238] Finished periodic procedure
+[2021-05-02T11:22:29] INFO [JIRAREPORTS.main:201] JiraReports is starting ...
+[2021-05-02T11:22:29] INFO [JIRAREPORTS.main:207] Starting config file parsing
+[2021-05-02T11:22:29] INFO [JIRAREPORTS.main:210] Finished config file parsing
+[2021-05-02T11:22:29] INFO [JIRAREPORTS.main:215] Start periodic procedure
+[2021-05-02T11:22:29] INFO [JIRAREPORTS.retriveReports:133] Starting retriveReports from JIRA
+[2021-05-02T11:22:29] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-05-02T11:22:30] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-05-02T11:22:30] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-05-02T11:22:31] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-05-02T11:22:34] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-05-02T11:22:34] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-05-02T11:22:35] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-05-02T11:22:35] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-05-02T11:22:36] INFO [JIRAREPORTS.main:238] Finished periodic procedure
+[2021-06-03T10:07:43] INFO [JIRAREPORTS.main:201] JiraReports is starting ...
+[2021-06-03T10:07:43] INFO [JIRAREPORTS.main:207] Starting config file parsing
+[2021-06-03T10:07:43] INFO [JIRAREPORTS.main:210] Finished config file parsing
+[2021-06-03T10:07:43] INFO [JIRAREPORTS.main:215] Start periodic procedure
+[2021-06-03T10:07:43] INFO [JIRAREPORTS.retriveReports:133] Starting retriveReports from JIRA
+[2021-06-03T10:07:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-06-03T10:07:50] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-06-03T10:07:51] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-06-03T10:07:53] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-06-03T10:08:50] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-06-03T10:08:50] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-06-03T10:09:09] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-06-03T10:09:09] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-06-03T10:09:15] INFO [JIRAREPORTS.main:238] Finished periodic procedure
+[2021-07-02T12:03:53] INFO [JIRAREPORTS.main:201] JiraReports is starting ...
+[2021-07-02T12:03:53] INFO [JIRAREPORTS.main:207] Starting config file parsing
+[2021-07-02T12:03:53] INFO [JIRAREPORTS.main:210] Finished config file parsing
+[2021-07-02T12:03:53] INFO [JIRAREPORTS.main:215] Start periodic procedure
+[2021-07-02T12:03:53] INFO [JIRAREPORTS.retriveReports:133] Starting retriveReports from JIRA
+[2021-07-02T12:03:53] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-07-02T12:03:54] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-07-02T12:03:55] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-07-02T12:03:56] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-07-02T12:04:00] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-07-02T12:04:00] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-07-02T12:04:00] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-07-02T12:04:00] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-07-02T12:04:02] INFO [JIRAREPORTS.main:238] Finished periodic procedure
+[2021-08-02T10:43:57] INFO [JIRAREPORTS.main:201] JiraReports is starting ...
+[2021-08-02T10:43:57] INFO [JIRAREPORTS.main:207] Starting config file parsing
+[2021-08-02T10:43:57] INFO [JIRAREPORTS.main:210] Finished config file parsing
+[2021-08-02T10:43:57] INFO [JIRAREPORTS.main:215] Start periodic procedure
+[2021-08-02T10:43:57] INFO [JIRAREPORTS.retriveReports:133] Starting retriveReports from JIRA
+[2021-08-02T10:43:57] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-08-02T10:43:58] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-08-02T10:43:59] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-08-02T10:44:00] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-08-02T10:44:03] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-08-02T10:44:03] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-08-02T10:44:03] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-08-02T10:44:03] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-08-02T10:44:05] INFO [JIRAREPORTS.main:238] Finished periodic procedure
+[2021-09-02T10:58:40] INFO [JIRAREPORTS.main:201] JiraReports is starting ...
+[2021-09-02T10:58:40] INFO [JIRAREPORTS.main:207] Starting config file parsing
+[2021-09-02T10:58:40] INFO [JIRAREPORTS.main:210] Finished config file parsing
+[2021-09-02T10:58:40] INFO [JIRAREPORTS.main:215] Start periodic procedure
+[2021-09-02T10:58:40] INFO [JIRAREPORTS.retriveReports:133] Starting retriveReports from JIRA
+[2021-09-02T10:58:40] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-09-02T10:58:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-09-02T10:58:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-09-02T10:58:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-09-02T10:58:46] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-09-02T10:58:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-09-02T10:58:46] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-09-02T10:58:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-09-02T10:58:48] INFO [JIRAREPORTS.main:238] Finished periodic procedure
+[2021-10-02T10:46:48] INFO [JIRAREPORTS.main:201] JiraReports is starting ...
+[2021-10-02T10:46:48] INFO [JIRAREPORTS.main:207] Starting config file parsing
+[2021-10-02T10:46:48] INFO [JIRAREPORTS.main:210] Finished config file parsing
+[2021-10-02T10:46:48] INFO [JIRAREPORTS.main:215] Start periodic procedure
+[2021-10-02T10:46:48] INFO [JIRAREPORTS.retriveReports:133] Starting retriveReports from JIRA
+[2021-10-02T10:46:48] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-10-02T10:46:48] ERROR [JIRAREPORTS.<module>:253] Unhandled exception occured:
+[2021-10-02T10:46:48] ERROR [JIRAREPORTS.<module>:254] ('Connection aborted.', gaierror(11001, 'getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 542, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 341, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 762, in _validate_conn
+    conn.connect()
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connection.py", line 204, in connect
+    conn = self._new_conn()
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connection.py", line 133, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\util\connection.py", line 64, in create_connection
+    for res in socket.getaddrinfo(host, port, 0, socket.SOCK_STREAM):
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 360, in send
+    resp = conn.urlopen(
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 596, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\util\retry.py", line 245, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\packages\six.py", line 309, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 542, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 341, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 762, in _validate_conn
+    conn.connect()
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connection.py", line 204, in connect
+    conn = self._new_conn()
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connection.py", line 133, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\util\connection.py", line 64, in create_connection
+    for res in socket.getaddrinfo(host, port, 0, socket.SOCK_STREAM):
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+requests.packages.urllib3.exceptions.ProtocolError: ('Connection aborted.', gaierror(11001, 'getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ebenitk\source\repos\JiraReports\JiraReports\JiraReports.py", line 250, in <module>
+    main()
+  File "C:\Users\ebenitk\source\repos\JiraReports\JiraReports\JiraReports.py", line 230, in main
+    results = retriveReports(url, auth, headers, startTime, endTime, breakDown, reports)
+  File "C:\Users\ebenitk\source\repos\JiraReports\JiraReports\JiraReports.py", line 137, in retriveReports
+    response = requests.request("GET", url, headers=headers, auth=auth)
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 464, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ebenitk\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 415, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', gaierror(11001, 'getaddrinfo failed'))
+[2021-11-02T12:50:41] INFO [JIRAREPORTS.main:201] JiraReports is starting ...
+[2021-11-02T12:50:41] INFO [JIRAREPORTS.main:207] Starting config file parsing
+[2021-11-02T12:50:41] INFO [JIRAREPORTS.main:210] Finished config file parsing
+[2021-11-02T12:50:41] INFO [JIRAREPORTS.main:215] Start periodic procedure
+[2021-11-02T12:50:41] INFO [JIRAREPORTS.retriveReports:133] Starting retriveReports from JIRA
+[2021-11-02T12:50:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-02T12:50:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-02T12:50:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-02T12:50:45] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-02T12:50:50] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-02T12:50:50] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-02T12:50:51] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-02T12:50:51] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-02T12:50:52] INFO [JIRAREPORTS.main:238] Finished periodic procedure
+[2021-11-15T13:35:56] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T13:35:56] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T13:35:56] INFO [JIRAREPORTS.main:222] Finished config file parsing
+[2021-11-15T13:35:56] INFO [JIRAREPORTS.main:227] Start periodic procedure
+[2021-11-15T13:35:56] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-11-15T13:35:56] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:35:57] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:35:58] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:35:59] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:36:01] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-15T13:36:01] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-15T13:36:02] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-15T13:36:02] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-15T13:36:02] ERROR [JIRAREPORTS.<module>:264] Unhandled exception occured:
+[2021-11-15T13:36:02] ERROR [JIRAREPORTS.<module>:265] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 542, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 341, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 762, in _validate_conn
+    conn.connect()
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connection.py", line 234, in connect
+    self.sock = ssl_wrap_socket(conn, self.key_file, self.cert_file,
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 265, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 360, in send
+    resp = conn.urlopen(
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 574, in urlopen
+    raise SSLError(e)
+requests.packages.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 261, in <module>
+    main()
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 249, in main
+    msgraph.sendMail(attach, body, subject)
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\MsGraphMail.py", line 106, in sendMail
+    sendResp = requests.request("POST", url=self.sendUrl, headers=sendHeaders, data=sendParams)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 464, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 431, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+[2021-11-15T13:37:58] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T13:37:58] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T13:37:58] INFO [JIRAREPORTS.main:222] Finished config file parsing
+[2021-11-15T13:37:58] INFO [JIRAREPORTS.main:227] Start periodic procedure
+[2021-11-15T13:37:58] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-11-15T13:37:58] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:37:58] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:38:00] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:38:00] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:38:03] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-15T13:38:03] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-15T13:38:03] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-15T13:38:03] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-15T13:38:03] ERROR [JIRAREPORTS.<module>:264] Unhandled exception occured:
+[2021-11-15T13:38:03] ERROR [JIRAREPORTS.<module>:265] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 542, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 341, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 762, in _validate_conn
+    conn.connect()
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connection.py", line 234, in connect
+    self.sock = ssl_wrap_socket(conn, self.key_file, self.cert_file,
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 265, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 360, in send
+    resp = conn.urlopen(
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 574, in urlopen
+    raise SSLError(e)
+requests.packages.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 261, in <module>
+    main()
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 249, in main
+    msgraph.sendMail(attach, body, subject)
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\MsGraphMail.py", line 106, in sendMail
+    sendResp = requests.request("POST", url=self.sendUrl, headers=sendHeaders, data=sendParams)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 464, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 431, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+[2021-11-15T13:46:03] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T13:46:03] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T13:46:03] INFO [JIRAREPORTS.main:222] Finished config file parsing
+[2021-11-15T13:46:03] INFO [JIRAREPORTS.main:227] Start periodic procedure
+[2021-11-15T13:46:03] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-11-15T13:46:03] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:46:04] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:46:05] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:46:06] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:46:08] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-15T13:46:08] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-15T13:46:09] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-15T13:46:09] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-15T13:46:09] ERROR [JIRAREPORTS.<module>:264] Unhandled exception occured:
+[2021-11-15T13:46:09] ERROR [JIRAREPORTS.<module>:265] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 542, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 341, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 762, in _validate_conn
+    conn.connect()
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connection.py", line 234, in connect
+    self.sock = ssl_wrap_socket(conn, self.key_file, self.cert_file,
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 265, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 360, in send
+    resp = conn.urlopen(
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 574, in urlopen
+    raise SSLError(e)
+requests.packages.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 261, in <module>
+    main()
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 249, in main
+    msgraph.sendMail(attach, body, subject)
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\MsGraphMail.py", line 106, in sendMail
+    sendResp = requests.request("POST", url=self.sendUrl, headers=sendHeaders, data=sendParams)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 464, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 431, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+[2021-11-15T13:52:50] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T13:52:50] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T13:52:50] INFO [JIRAREPORTS.main:222] Finished config file parsing
+[2021-11-15T13:52:50] INFO [JIRAREPORTS.main:227] Start periodic procedure
+[2021-11-15T13:52:50] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-11-15T13:52:50] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:52:51] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:52:52] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:52:53] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:52:55] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-15T13:52:55] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-15T13:52:55] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-15T13:52:55] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-15T13:52:56] ERROR [JIRAREPORTS.<module>:264] Unhandled exception occured:
+[2021-11-15T13:52:56] ERROR [JIRAREPORTS.<module>:265] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 542, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 341, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 762, in _validate_conn
+    conn.connect()
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connection.py", line 234, in connect
+    self.sock = ssl_wrap_socket(conn, self.key_file, self.cert_file,
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 265, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 360, in send
+    resp = conn.urlopen(
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 574, in urlopen
+    raise SSLError(e)
+requests.packages.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 261, in <module>
+    main()
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 249, in main
+    msgraph.sendMail(attach, body, subject)
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\MsGraphMail.py", line 106, in sendMail
+    sendResp = requests.request("POST", url=self.sendUrl, headers=sendHeaders, data=sendParams)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 464, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 431, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+[2021-11-15T13:54:57] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T13:54:57] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T13:54:57] INFO [JIRAREPORTS.main:222] Finished config file parsing
+[2021-11-15T13:54:57] INFO [JIRAREPORTS.main:227] Start periodic procedure
+[2021-11-15T13:54:57] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-11-15T13:54:57] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:54:58] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:54:59] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:55:00] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:55:02] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-15T13:55:02] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-15T13:55:03] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-15T13:55:03] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-15T13:55:03] ERROR [JIRAREPORTS.<module>:264] Unhandled exception occured:
+[2021-11-15T13:55:03] ERROR [JIRAREPORTS.<module>:265] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 542, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 341, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 762, in _validate_conn
+    conn.connect()
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connection.py", line 234, in connect
+    self.sock = ssl_wrap_socket(conn, self.key_file, self.cert_file,
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 265, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 360, in send
+    resp = conn.urlopen(
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 574, in urlopen
+    raise SSLError(e)
+requests.packages.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 261, in <module>
+    main()
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 249, in main
+    msgraph.sendMail(attach, body, subject)
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\MsGraphMail.py", line 106, in sendMail
+    sendResp = requests.request("POST", url=self.sendUrl, headers=sendHeaders, data=sendParams)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 464, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 431, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+[2021-11-15T13:58:12] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T13:58:12] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T13:58:12] INFO [JIRAREPORTS.main:222] Finished config file parsing
+[2021-11-15T13:58:12] INFO [JIRAREPORTS.main:227] Start periodic procedure
+[2021-11-15T13:58:12] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-11-15T13:58:12] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:58:13] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:58:14] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:58:15] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T13:58:17] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-15T13:58:17] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-15T13:58:18] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-15T13:58:18] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-15T13:58:18] ERROR [JIRAREPORTS.<module>:264] Unhandled exception occured:
+[2021-11-15T13:58:18] ERROR [JIRAREPORTS.<module>:265] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 542, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 341, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 762, in _validate_conn
+    conn.connect()
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connection.py", line 234, in connect
+    self.sock = ssl_wrap_socket(conn, self.key_file, self.cert_file,
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 265, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 360, in send
+    resp = conn.urlopen(
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 574, in urlopen
+    raise SSLError(e)
+requests.packages.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 261, in <module>
+    main()
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 249, in main
+    msgraph.sendMail(attach, body, subject)
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\MsGraphMail.py", line 106, in sendMail
+    sendResp = requests.request("POST", url=self.sendUrl, headers=sendHeaders, data=sendParams)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 464, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 431, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+[2021-11-15T15:32:20] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T15:32:20] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T15:32:20] INFO [JIRAREPORTS.main:222] Finished config file parsing
+[2021-11-15T15:32:20] INFO [JIRAREPORTS.main:227] Start periodic procedure
+[2021-11-15T15:32:20] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-11-15T15:32:20] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:32:21] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:32:22] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:32:23] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:32:26] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-15T15:32:26] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-15T15:32:44] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-15T15:33:58] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-15T15:34:18] ERROR [JIRAREPORTS.<module>:264] Unhandled exception occured:
+[2021-11-15T15:35:57] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T15:35:57] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T15:35:57] INFO [JIRAREPORTS.main:222] Finished config file parsing
+[2021-11-15T15:35:57] INFO [JIRAREPORTS.main:227] Start periodic procedure
+[2021-11-15T15:35:57] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-11-15T15:35:57] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:35:57] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:35:58] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:35:59] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:36:02] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-15T15:36:02] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-15T15:36:02] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-15T15:36:02] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-15T15:36:06] INFO [JIRAREPORTS.main:250] Finished periodic procedure
+[2021-11-15T15:38:05] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T15:38:05] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T15:38:05] INFO [JIRAREPORTS.main:222] Finished config file parsing
+[2021-11-15T15:38:05] INFO [JIRAREPORTS.main:227] Start periodic procedure
+[2021-11-15T15:38:05] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-11-15T15:38:05] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:38:06] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:38:07] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:38:08] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:38:10] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-15T15:38:10] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-15T15:38:11] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-15T15:38:11] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-15T15:38:14] INFO [JIRAREPORTS.main:250] Finished periodic procedure
+[2021-11-15T15:48:53] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T15:48:53] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T15:48:53] INFO [JIRAREPORTS.main:222] Finished config file parsing
+[2021-11-15T15:48:53] ERROR [JIRAREPORTS.<module>:264] Unhandled exception occured:
+[2021-11-15T15:48:53] ERROR [JIRAREPORTS.<module>:265] 'JIRA'
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 261, in <module>
+    main()
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports\JiraReports.py", line 223, in main
+    auth = HTTPBasicAuth(cnf['JIRA']['user'], cnf['JIRA']['token'])
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\configparser.py", line 963, in __getitem__
+    raise KeyError(key)
+KeyError: 'JIRA'
+[2021-11-15T15:51:06] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T15:51:06] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T15:51:06] INFO [JIRAREPORTS.main:222] Finished config file parsing
+[2021-11-15T15:51:06] INFO [JIRAREPORTS.main:227] Start periodic procedure
+[2021-11-15T15:51:06] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-11-15T15:51:06] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:51:07] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:51:08] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:51:09] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T15:51:11] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-15T15:51:11] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-15T15:51:12] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-15T15:51:12] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-15T15:51:15] INFO [JIRAREPORTS.main:250] Finished periodic procedure
+[2021-11-15T15:57:45] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T15:57:45] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T15:57:45] ERROR [JIRAREPORTS.<module>:265] Unhandled exception occured:
+[2021-11-15T15:57:45] ERROR [JIRAREPORTS.<module>:266] 'module' object is not callable
+Traceback (most recent call last):
+  File "C:/Users/eyulsaa/Downloads/JiraReports/JiraReports/JiraReports.py", line 262, in <module>
+    main()
+  File "C:/Users/eyulsaa/Downloads/JiraReports/JiraReports/JiraReports.py", line 221, in main
+    scriptPath = os.path(__file__)
+TypeError: 'module' object is not callable
+[2021-11-15T15:58:02] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T15:58:02] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T15:58:02] ERROR [JIRAREPORTS.<module>:265] Unhandled exception occured:
+[2021-11-15T15:58:02] ERROR [JIRAREPORTS.<module>:266] 'module' object is not callable
+Traceback (most recent call last):
+  File "C:/Users/eyulsaa/Downloads/JiraReports/JiraReports/JiraReports.py", line 262, in <module>
+    main()
+  File "C:/Users/eyulsaa/Downloads/JiraReports/JiraReports/JiraReports.py", line 221, in main
+    scriptPath = os.path(__file__)
+TypeError: 'module' object is not callable
+[2021-11-15T15:58:40] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T15:58:40] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T16:02:43] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T16:02:43] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T16:02:43] INFO [JIRAREPORTS.main:223] Finished config file parsing
+[2021-11-15T16:02:43] INFO [JIRAREPORTS.main:228] Start periodic procedure
+[2021-11-15T16:02:43] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-11-15T16:02:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T16:02:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T16:02:45] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T16:02:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T16:02:49] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-15T16:02:49] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-15T16:02:49] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-15T16:02:49] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-15T16:02:53] INFO [JIRAREPORTS.main:251] Finished periodic procedure
+[2021-11-15T16:03:00] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-11-15T16:03:00] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-11-15T16:03:00] INFO [JIRAREPORTS.main:223] Finished config file parsing
+[2021-11-15T16:03:00] INFO [JIRAREPORTS.main:228] Start periodic procedure
+[2021-11-15T16:03:00] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-11-15T16:03:00] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T16:03:00] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T16:03:01] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T16:03:02] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-11-15T16:03:05] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2021-11-15T16:03:05] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2021-11-15T16:03:05] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2021-11-15T16:03:05] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2021-11-15T16:03:09] INFO [JIRAREPORTS.main:251] Finished periodic procedure
+[2021-12-05T15:39:17] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2021-12-05T15:39:17] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2021-12-05T15:39:17] INFO [JIRAREPORTS.main:223] Finished config file parsing
+[2021-12-05T15:39:17] INFO [JIRAREPORTS.main:228] Start periodic procedure
+[2021-12-05T15:39:17] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2021-12-05T15:39:17] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2021-12-05T15:39:18] INFO [JIRAREPORTS.retriveReports:149] some issu occured with the JIRA API
+[2021-12-05T15:39:18] INFO [JIRAREPORTS.retriveReports:150] {"errorMessage": "Your Atlassian Cloud subscription requires renewal"}
+[2022-01-02T15:39:18] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2022-01-02T15:39:18] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2022-01-02T15:39:18] INFO [JIRAREPORTS.main:223] Finished config file parsing
+[2022-01-02T15:39:18] INFO [JIRAREPORTS.main:228] Start periodic procedure
+[2022-01-02T15:39:18] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-01-02T15:39:18] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-01-02T15:39:19] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-01-02T15:39:20] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-01-02T15:39:21] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-01-02T15:39:26] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-01-02T15:39:26] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-01-02T15:39:26] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-01-02T15:39:26] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-01-02T15:39:30] INFO [JIRAREPORTS.main:251] Finished periodic procedure
+[2022-02-06T16:11:37] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2022-02-06T16:11:37] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2022-02-06T16:11:37] INFO [JIRAREPORTS.main:223] Finished config file parsing
+[2022-02-06T16:11:37] INFO [JIRAREPORTS.main:228] Start periodic procedure
+[2022-02-06T16:11:37] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-02-06T16:11:37] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-06T16:11:38] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-06T16:11:39] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-06T16:11:40] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-06T16:11:44] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-02-06T16:11:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-02-06T16:11:44] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-02-06T16:11:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-02-06T16:53:59] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2022-02-06T16:53:59] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2022-02-06T16:53:59] INFO [JIRAREPORTS.main:223] Finished config file parsing
+[2022-02-06T16:53:59] INFO [JIRAREPORTS.main:228] Start periodic procedure
+[2022-02-06T16:53:59] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-02-06T16:53:59] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-06T16:54:00] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-06T16:54:01] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-06T16:54:01] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-06T16:54:04] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-02-06T16:54:04] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-02-06T16:54:04] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-02-06T16:54:04] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-02-06T16:54:07] INFO [JIRAREPORTS.main:251] Finished periodic procedure
+[2022-02-09T20:05:34] INFO [JIRAREPORTS.main:213] JiraReports is starting ...
+[2022-02-09T20:05:34] INFO [JIRAREPORTS.main:219] Starting config file parsing
+[2022-02-09T20:05:34] INFO [JIRAREPORTS.main:223] Finished config file parsing
+[2022-02-09T20:05:34] INFO [JIRAREPORTS.main:228] Start periodic procedure
+[2022-02-09T20:05:34] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-02-09T20:05:34] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:05:35] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:05:36] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:05:37] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:05:41] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-02-09T20:05:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-02-09T20:05:42] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-02-09T20:05:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-02-09T20:05:47] INFO [JIRAREPORTS.main:251] Finished periodic procedure
+[2022-02-09T20:09:08] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-02-09T20:09:08] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-02-09T20:09:08] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-02-09T20:09:08] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-02-09T20:09:08] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-02-09T20:09:08] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:09:09] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:09:10] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:09:11] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:09:12] INFO [JIRAREPORTS.addMonthlyYTD:212] Starting YTD for Created VS resolved
+[2022-02-09T20:09:12] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:09:15] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-02-09T20:09:15] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-02-09T20:09:15] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-02-09T20:09:15] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-02-09T20:09:19] INFO [JIRAREPORTS.main:299] Finished start-end time procedure
+[2022-02-09T20:09:58] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-02-09T20:09:58] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-02-09T20:09:58] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-02-09T20:09:58] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-02-09T20:09:58] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-02-09T20:09:58] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:09:59] INFO [JIRAREPORTS.retriveReports:149] some issu occured with the JIRA API
+[2022-02-09T20:09:59] INFO [JIRAREPORTS.retriveReports:150] {"message":"Client must be authenticated to access this resource.","status-code":401}
+[2022-02-09T20:10:40] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-02-09T20:10:40] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-02-09T20:10:40] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-02-09T20:10:40] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-02-09T20:10:40] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-02-09T20:10:40] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:10:40] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:10:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:10:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:10:43] INFO [JIRAREPORTS.addMonthlyYTD:212] Starting YTD for Created VS resolved
+[2022-02-09T20:10:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-02-09T20:10:46] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-02-09T20:10:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-02-09T20:10:46] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-02-09T20:10:47] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-02-09T20:10:50] INFO [JIRAREPORTS.main:299] Finished start-end time procedure
+[2022-03-06T15:39:15] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-03-06T15:39:15] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-03-06T15:39:15] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-03-06T15:39:15] ERROR [JIRAREPORTS.<module>:309] Unhandled exception occured:
+[2022-03-06T15:39:15] ERROR [JIRAREPORTS.<module>:310] 'JIRA'
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports.py", line 306, in <module>
+    main()
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports.py", line 259, in main
+    auth = HTTPBasicAuth(cnf['JIRA']['user'], cnf['JIRA']['token'])
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\configparser.py", line 963, in __getitem__
+    raise KeyError(key)
+KeyError: 'JIRA'
+[2022-05-03T19:09:41] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-05-03T19:09:41] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-05-03T19:09:41] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-05-03T19:09:41] ERROR [JIRAREPORTS.<module>:309] Unhandled exception occured:
+[2022-05-03T19:09:41] ERROR [JIRAREPORTS.<module>:310] 'JIRA'
+Traceback (most recent call last):
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports.py", line 306, in <module>
+    main()
+  File "C:\Users\eyulsaa\Downloads\JiraReports\JiraReports.py", line 259, in main
+    auth = HTTPBasicAuth(cnf['JIRA']['user'], cnf['JIRA']['token'])
+  File "C:\Users\eyulsaa\AppData\Local\Programs\Python\Python39\lib\configparser.py", line 963, in __getitem__
+    raise KeyError(key)
+KeyError: 'JIRA'
+[2022-07-03T13:35:25] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-07-03T13:35:25] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-07-03T13:35:25] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-07-03T13:35:25] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-07-03T13:35:25] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-07-03T13:35:25] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T13:35:26] INFO [JIRAREPORTS.retriveReports:149] some issu occured with the JIRA API
+[2022-07-03T13:35:26] INFO [JIRAREPORTS.retriveReports:150] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-07-03T13:36:26] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-07-03T13:36:26] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-07-03T13:36:26] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-07-03T13:36:26] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-07-03T13:36:26] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-07-03T13:36:26] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T13:36:26] INFO [JIRAREPORTS.retriveReports:149] some issu occured with the JIRA API
+[2022-07-03T13:36:26] INFO [JIRAREPORTS.retriveReports:150] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-07-03T14:12:24] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-07-03T14:12:24] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-07-03T14:12:24] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-07-03T14:12:24] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-07-03T14:12:24] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-07-03T14:12:24] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:12:25] INFO [JIRAREPORTS.retriveReports:149] some issu occured with the JIRA API
+[2022-07-03T14:12:25] INFO [JIRAREPORTS.retriveReports:150] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-07-03T14:12:52] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-07-03T14:12:52] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-07-03T14:12:52] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-07-03T14:12:52] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-07-03T14:12:52] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-07-03T14:12:52] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:12:53] INFO [JIRAREPORTS.retriveReports:149] some issu occured with the JIRA API
+[2022-07-03T14:12:53] INFO [JIRAREPORTS.retriveReports:150] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-07-03T14:13:08] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-07-03T14:13:08] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-07-03T14:13:08] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-07-03T14:13:08] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-07-03T14:13:08] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-07-03T14:13:08] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:13:08] INFO [JIRAREPORTS.retriveReports:149] some issu occured with the JIRA API
+[2022-07-03T14:13:08] INFO [JIRAREPORTS.retriveReports:150] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-07-03T14:14:00] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-07-03T14:14:00] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-07-03T14:14:00] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-07-03T14:14:00] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-07-03T14:14:00] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-07-03T14:14:00] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:14:00] INFO [JIRAREPORTS.retriveReports:149] some issu occured with the JIRA API
+[2022-07-03T14:14:00] INFO [JIRAREPORTS.retriveReports:150] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-07-03T14:15:27] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-07-03T14:15:27] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-07-03T14:15:27] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-07-03T14:15:27] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-07-03T14:15:27] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-07-03T14:15:27] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:15:28] INFO [JIRAREPORTS.retriveReports:149] some issu occured with the JIRA API
+[2022-07-03T14:15:28] INFO [JIRAREPORTS.retriveReports:150] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-07-03T14:15:52] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-07-03T14:15:52] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-07-03T14:15:52] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-07-03T14:15:52] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-07-03T14:15:52] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-07-03T14:15:52] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:15:52] INFO [JIRAREPORTS.retriveReports:149] some issu occured with the JIRA API
+[2022-07-03T14:15:52] INFO [JIRAREPORTS.retriveReports:150] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-07-03T14:17:08] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-07-03T14:17:08] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-07-03T14:17:08] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-07-03T14:17:08] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-07-03T14:17:08] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-07-03T14:17:08] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:17:09] INFO [JIRAREPORTS.retriveReports:149] some issu occured with the JIRA API
+[2022-07-03T14:17:09] INFO [JIRAREPORTS.retriveReports:150] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-07-03T14:17:41] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-07-03T14:17:41] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-07-03T14:17:41] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-07-03T14:17:41] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-07-03T14:17:41] INFO [JIRAREPORTS.retriveReports:143] Starting retriveReports from JIRA
+[2022-07-03T14:17:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:17:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:17:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:17:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:17:44] INFO [JIRAREPORTS.addMonthlyYTD:212] Starting YTD for Created VS resolved
+[2022-07-03T14:17:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:17:49] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-07-03T14:17:49] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-07-03T14:17:49] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-07-03T14:17:49] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-07-03T14:17:52] INFO [JIRAREPORTS.main:299] Finished start-end time procedure
+[2022-07-03T14:20:20] INFO [JIRAREPORTS.main:249] JiraReports is starting ...
+[2022-07-03T14:20:20] INFO [JIRAREPORTS.main:255] Starting config file parsing
+[2022-07-03T14:20:20] INFO [JIRAREPORTS.main:258] Finished config file parsing
+[2022-07-03T14:20:20] INFO [JIRAREPORTS.main:263] Start periodic procedure
+[2022-07-03T14:20:41] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-07-03T14:20:41] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-07-03T14:20:41] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-07-03T14:20:41] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-07-03T14:20:41] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-07-03T14:20:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:20:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:20:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:20:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:20:44] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-07-03T14:20:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:20:46] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-07-03T14:20:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-07-03T14:20:47] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-07-03T14:20:47] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-07-03T14:20:49] INFO [JIRAREPORTS.main:302] Finished start-end time procedure
+[2022-07-03T14:22:09] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-07-03T14:22:09] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-07-03T14:22:09] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-07-03T14:22:09] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-07-03T14:22:09] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-07-03T14:22:09] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:22:09] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:22:11] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:22:12] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:22:12] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-07-03T14:22:12] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:22:17] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-07-03T14:22:17] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-07-03T14:22:17] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-07-03T14:22:17] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-07-03T14:22:19] INFO [JIRAREPORTS.main:302] Finished start-end time procedure
+[2022-07-03T14:23:31] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-07-03T14:23:31] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-07-03T14:23:31] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-07-03T14:23:31] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-07-03T14:23:31] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-07-03T14:23:32] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:23:32] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:23:33] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:23:34] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:23:35] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-07-03T14:23:35] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-07-03T14:23:41] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-07-03T14:23:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-07-03T14:23:41] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-07-03T14:23:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-07-03T14:23:44] INFO [JIRAREPORTS.main:302] Finished start-end time procedure
+[2022-09-12T15:24:02] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-12T15:24:02] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-12T15:24:02] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-12T15:24:02] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-12T15:24:02] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-12T15:24:02] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:24:03] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:24:04] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:24:06] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:24:07] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-12T15:24:07] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:24:14] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-12T15:24:14] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-12T15:24:14] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-12T15:24:14] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-12T15:24:14] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-12T15:24:14] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:24:15] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:24:16] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:24:17] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:24:18] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-12T15:24:18] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-12T15:24:18] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-12T15:24:18] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-12T15:24:18] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-12T15:24:18] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:24:21] INFO [JIRAREPORTS.main:302] Finished start-end time procedure
+[2022-09-12T15:24:27] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-12T15:24:27] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-12T15:24:28] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-12T15:24:28] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-12T15:24:31] INFO [JIRAREPORTS.main:302] Finished start-end time procedure
+[2022-09-12T15:31:48] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-12T15:31:48] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-12T15:31:48] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-12T15:31:48] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-12T15:31:48] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-12T15:31:48] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:31:49] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:31:50] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:31:51] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:31:52] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-12T15:31:52] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-12T15:31:56] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-12T15:31:56] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-12T15:31:57] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-12T15:31:57] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-12T15:32:00] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-09-14T10:18:59] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T10:18:59] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T10:18:59] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T10:19:30] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T10:19:30] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T10:19:30] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T10:19:30] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T10:19:30] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T10:19:30] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:19:31] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:19:33] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:19:34] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:19:35] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-14T10:19:35] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:19:38] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-14T10:19:38] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-14T10:19:40] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-14T10:19:40] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-14T10:19:47] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-09-14T10:22:05] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T10:22:05] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T10:22:05] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T10:22:05] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T10:22:05] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T10:22:05] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:22:05] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:22:07] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:22:08] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:22:09] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-14T10:22:09] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:22:11] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-14T10:22:11] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-14T10:22:12] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-14T10:22:12] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-14T10:22:15] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-09-14T10:35:44] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T10:35:44] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T10:35:44] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T10:35:44] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T10:35:44] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T10:35:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:35:45] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:35:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:35:47] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:35:48] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-14T10:35:48] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:35:50] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-14T10:35:50] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-14T10:35:51] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-14T10:35:51] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-14T10:35:53] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-09-14T10:37:43] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T10:37:43] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T10:37:43] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T10:37:43] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T10:37:43] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T10:37:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:37:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:37:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:37:47] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:37:49] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-14T10:37:49] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T10:37:51] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-14T10:37:51] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-14T10:37:52] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-14T10:37:52] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-14T10:37:56] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-09-14T11:20:13] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T11:20:13] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T11:20:13] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T11:20:13] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T11:20:13] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T11:20:13] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:20:14] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:20:15] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:20:16] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:20:17] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T11:20:17] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T11:20:17] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T11:20:17] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T11:20:17] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T11:20:17] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:20:17] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:20:17] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-14T11:20:17] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:20:18] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:20:19] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-14T11:20:19] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-14T11:20:19] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:20:20] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-14T11:20:20] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-14T11:20:20] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-14T11:20:20] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:20:22] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-14T11:20:22] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-14T11:20:23] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-09-14T11:20:23] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-14T11:20:23] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-14T11:20:25] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-09-14T11:23:21] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T11:23:21] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T11:23:21] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T11:23:21] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T11:23:21] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T11:23:21] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:23:21] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:23:22] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:23:23] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:23:24] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-14T11:23:24] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:23:26] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-14T11:23:26] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-14T11:23:27] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-14T11:23:27] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-14T11:23:31] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-09-14T11:26:44] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T11:26:44] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T11:26:44] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T11:26:44] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T11:26:44] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T11:26:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:26:44] INFO [JIRAREPORTS.retriveReports:151] some issu occured with the JIRA API
+[2022-09-14T11:26:44] INFO [JIRAREPORTS.retriveReports:152] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-09-14T11:28:59] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T11:28:59] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T11:28:59] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T11:28:59] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T11:28:59] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T11:28:59] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:28:59] INFO [JIRAREPORTS.retriveReports:151] some issu occured with the JIRA API
+[2022-09-14T11:28:59] INFO [JIRAREPORTS.retriveReports:152] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-09-14T11:29:07] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T11:29:07] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T11:29:07] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T11:29:07] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T11:29:07] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T11:29:07] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:29:07] INFO [JIRAREPORTS.retriveReports:151] some issu occured with the JIRA API
+[2022-09-14T11:29:07] INFO [JIRAREPORTS.retriveReports:152] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-09-14T11:30:47] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T11:30:47] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T11:30:47] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T11:30:47] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T11:30:47] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T11:30:47] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:30:47] INFO [JIRAREPORTS.retriveReports:151] some issu occured with the JIRA API
+[2022-09-14T11:30:47] INFO [JIRAREPORTS.retriveReports:152] {"errors":[{"errorMessage":"The date range you have chosen is not supported, try switching the dates"}],"reasonKey":"sd.project.reports.customdate.invalid.time.breakdown","reasonCode":"400"}
+[2022-09-14T11:33:10] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T11:33:10] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T11:33:10] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T11:33:10] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T11:33:10] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T11:33:10] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:33:11] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:33:12] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:33:13] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:33:14] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-14T11:33:14] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:33:16] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-14T11:33:16] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-14T11:33:16] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-14T11:33:16] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-14T11:33:19] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-09-14T11:33:22] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T11:33:22] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T11:33:22] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T11:34:07] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T11:34:07] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T11:34:07] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T11:34:07] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T11:34:07] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T11:34:07] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:34:07] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:34:09] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:34:10] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:34:11] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-14T11:34:11] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:34:13] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-14T11:34:13] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-14T11:34:13] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-14T11:34:13] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-14T11:34:16] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-09-14T11:35:21] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T11:35:21] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T11:35:21] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T11:35:21] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T11:35:21] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T11:35:21] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:35:21] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:35:23] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:35:24] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:35:25] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-14T11:35:25] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:35:27] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-14T11:35:27] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-14T11:35:27] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-14T11:35:27] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-14T11:35:31] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-09-14T11:36:35] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-09-14T11:36:35] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-09-14T11:36:35] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-09-14T11:36:35] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-09-14T11:36:35] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-09-14T11:36:35] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:36:35] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:36:36] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:36:37] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:36:38] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-09-14T11:36:38] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-09-14T11:36:40] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-09-14T11:36:40] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-09-14T11:36:41] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-09-14T11:36:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-09-14T11:36:44] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-10-02T11:44:30] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-10-02T11:44:30] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-10-02T11:44:30] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-10-02T11:44:30] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-10-02T11:44:30] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-10-02T11:44:30] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-02T11:44:31] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-02T11:44:32] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-02T11:44:33] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-02T11:44:34] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-10-02T11:44:34] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-02T11:44:42] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-10-02T11:44:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-10-02T11:44:42] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-10-02T11:44:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-10-02T11:44:45] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-10-02T11:45:15] INFO [JIRAREPORTS.main:251] JiraReports is starting ...
+[2022-10-02T11:45:15] INFO [JIRAREPORTS.main:257] Starting config file parsing
+[2022-10-02T11:45:15] INFO [JIRAREPORTS.main:260] Finished config file parsing
+[2022-10-02T11:45:15] INFO [JIRAREPORTS.main:265] Start periodic procedure
+[2022-10-02T11:45:15] INFO [JIRAREPORTS.retriveReports:145] Starting retriveReports from JIRA
+[2022-10-02T11:45:15] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-02T11:45:16] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-02T11:45:17] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-02T11:45:18] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-02T11:45:19] INFO [JIRAREPORTS.addMonthlyYTD:214] Starting YTD for Created VS resolved
+[2022-10-02T11:45:19] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-02T11:45:24] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-10-02T11:45:24] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-10-02T11:45:25] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-10-02T11:45:25] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-10-02T11:45:28] INFO [JIRAREPORTS.main:303] Finished start-end time procedure
+[2022-10-19T15:40:48] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2022-10-19T15:40:48] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2022-10-19T15:40:48] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2022-10-19T15:40:48] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2022-10-19T15:40:48] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2022-10-19T15:40:48] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:40:49] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:40:51] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:40:52] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:40:54] INFO [JIRAREPORTS.addMonthlyYTD:215] Starting YTD for Created VS resolved
+[2022-10-19T15:40:54] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:40:59] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-10-19T15:40:59] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-10-19T15:40:59] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-10-19T15:40:59] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-10-19T15:41:04] INFO [JIRAREPORTS.main:304] Finished start-end time procedure
+[2022-10-19T15:46:42] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2022-10-19T15:46:42] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2022-10-19T15:46:42] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2022-10-19T15:46:42] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2022-10-19T15:46:42] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2022-10-19T15:46:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:46:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:46:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:46:45] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:46:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:46:46] INFO [JIRAREPORTS.addMonthlyYTD:215] Starting YTD for Created VS resolved
+[2022-10-19T15:46:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:46:51] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-10-19T15:46:51] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-10-19T15:46:51] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-10-19T15:46:51] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-10-19T15:47:01] INFO [JIRAREPORTS.main:304] Finished start-end time procedure
+[2022-10-19T15:52:11] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2022-10-19T15:52:11] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2022-10-19T15:52:11] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2022-10-19T15:52:11] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2022-10-19T15:52:11] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2022-10-19T15:52:11] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:52:12] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:52:13] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:52:14] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:52:15] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:52:16] INFO [JIRAREPORTS.addMonthlyYTD:215] Starting YTD for Created VS resolved
+[2022-10-19T15:52:16] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-10-19T15:52:21] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-10-19T15:52:21] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-10-19T15:52:21] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-10-19T15:52:21] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-10-19T15:52:26] INFO [JIRAREPORTS.main:304] Finished start-end time procedure
+[2022-11-06T10:58:36] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2022-11-06T10:58:36] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2022-11-06T10:58:36] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2022-11-06T10:58:36] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2022-11-06T10:58:36] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2022-11-06T10:58:36] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-11-06T10:58:37] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-11-06T10:58:38] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-11-06T10:58:39] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-11-06T10:58:40] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-11-06T10:58:40] INFO [JIRAREPORTS.addMonthlyYTD:215] Starting YTD for Created VS resolved
+[2022-11-06T10:58:40] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-11-06T10:58:43] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-11-06T10:58:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-11-06T10:58:44] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-11-06T10:58:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-11-06T10:58:46] INFO [JIRAREPORTS.main:304] Finished start-end time procedure
+[2022-12-04T10:58:37] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2022-12-04T10:58:37] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2022-12-04T10:58:37] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2022-12-04T10:58:37] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2022-12-04T10:58:37] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2022-12-04T10:58:37] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-12-04T10:58:38] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-12-04T10:58:39] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-12-04T10:58:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-12-04T10:58:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-12-04T10:58:43] INFO [JIRAREPORTS.addMonthlyYTD:215] Starting YTD for Created VS resolved
+[2022-12-04T10:58:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-12-04T10:58:46] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-12-04T10:58:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-12-04T10:58:47] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-12-04T10:58:47] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-12-04T10:58:48] INFO [JIRAREPORTS.main:304] Finished start-end time procedure
+[2022-12-28T11:17:52] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2022-12-28T11:17:52] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2022-12-28T11:17:52] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2022-12-28T11:17:52] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2022-12-28T11:17:52] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2022-12-28T11:17:52] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-12-28T11:17:53] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-12-28T11:17:54] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-12-28T11:17:55] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-12-28T11:17:56] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-12-28T11:17:57] INFO [JIRAREPORTS.addMonthlyYTD:215] Starting YTD for Created VS resolved
+[2022-12-28T11:17:57] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2022-12-28T11:18:06] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2022-12-28T11:18:06] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2022-12-28T11:18:07] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2022-12-28T11:18:07] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2022-12-28T11:18:11] INFO [JIRAREPORTS.main:304] Finished start-end time procedure
+[2023-01-01T09:47:07] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2023-01-01T09:47:07] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2023-01-01T09:47:07] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2023-01-01T09:47:07] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2023-01-01T09:47:07] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2023-01-01T09:47:07] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T09:47:07] INFO [JIRAREPORTS.retriveReports:152] some issu occured with the JIRA API
+[2023-01-01T09:47:07] INFO [JIRAREPORTS.retriveReports:153] {"errors":[{"errorMessage":"Report date range cannot be longer than 366 days"}],"reasonKey":"sd.project.reports.customdate.invalid.exceeded.max.range","reasonCode":"400"}
+[2023-01-01T09:55:16] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2023-01-01T09:55:16] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2023-01-01T09:55:16] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2023-01-01T09:55:16] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2023-01-01T09:55:16] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2023-01-01T09:55:16] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T09:55:16] INFO [JIRAREPORTS.retriveReports:152] some issu occured with the JIRA API
+[2023-01-01T09:55:16] INFO [JIRAREPORTS.retriveReports:153] {"errors":[{"errorMessage":"Report date range cannot be longer than 366 days"}],"reasonKey":"sd.project.reports.customdate.invalid.exceeded.max.range","reasonCode":"400"}
+[2023-01-01T09:58:37] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2023-01-01T09:58:37] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2023-01-01T09:58:37] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2023-01-01T09:58:37] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2023-01-01T09:58:37] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2023-01-01T09:58:37] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T09:58:37] INFO [JIRAREPORTS.retriveReports:152] some issu occured with the JIRA API
+[2023-01-01T09:58:37] INFO [JIRAREPORTS.retriveReports:153] {"errors":[{"errorMessage":"Report date range cannot be longer than 366 days"}],"reasonKey":"sd.project.reports.customdate.invalid.exceeded.max.range","reasonCode":"400"}
+[2023-01-01T10:11:30] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2023-01-01T10:11:30] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2023-01-01T10:11:30] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2023-01-01T10:11:30] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2023-01-01T10:11:30] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2023-01-01T10:11:30] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:11:31] INFO [JIRAREPORTS.retriveReports:152] some issu occured with the JIRA API
+[2023-01-01T10:11:31] INFO [JIRAREPORTS.retriveReports:153] {"errors":[{"errorMessage":"Report date range cannot be longer than 366 days"}],"reasonKey":"sd.project.reports.customdate.invalid.exceeded.max.range","reasonCode":"400"}
+[2023-01-01T10:14:37] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2023-01-01T10:14:37] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2023-01-01T10:14:37] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2023-01-01T10:14:37] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2023-01-01T10:14:37] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2023-01-01T10:14:37] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:14:38] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:14:39] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:14:40] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:14:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:14:42] INFO [JIRAREPORTS.addMonthlyYTD:215] Starting YTD for Created VS resolved
+[2023-01-01T10:14:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:14:47] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2023-01-01T10:14:47] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2023-01-01T10:14:47] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2023-01-01T10:14:47] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2023-01-01T10:14:49] INFO [JIRAREPORTS.main:306] Finished start-end time procedure
+[2023-01-01T10:16:57] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2023-01-01T10:16:57] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2023-01-01T10:16:57] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2023-01-01T10:16:57] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2023-01-01T10:16:57] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2023-01-01T10:16:57] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:16:57] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:16:59] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:16:59] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:17:00] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:17:01] INFO [JIRAREPORTS.addMonthlyYTD:215] Starting YTD for Created VS resolved
+[2023-01-01T10:17:01] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:17:06] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2023-01-01T10:17:06] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2023-01-01T10:17:06] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2023-01-01T10:17:06] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2023-01-01T10:17:08] INFO [JIRAREPORTS.main:306] Finished start-end time procedure
+[2023-01-01T10:58:34] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2023-01-01T10:58:34] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2023-01-01T10:58:34] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2023-01-01T10:58:34] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2023-01-01T10:58:34] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2023-01-01T10:58:34] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:58:35] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:58:36] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:58:37] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:58:38] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:58:39] INFO [JIRAREPORTS.addMonthlyYTD:215] Starting YTD for Created VS resolved
+[2023-01-01T10:58:39] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-01-01T10:58:44] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2023-01-01T10:58:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2023-01-01T10:58:44] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2023-01-01T10:58:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2023-01-01T10:58:46] INFO [JIRAREPORTS.main:306] Finished start-end time procedure
+[2023-02-05T10:58:36] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2023-02-05T10:58:36] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2023-02-05T10:58:36] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2023-02-05T10:58:36] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2023-02-05T10:58:36] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2023-02-05T10:58:36] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-02-05T10:58:37] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-02-05T10:58:38] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-02-05T10:58:39] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-02-05T10:58:40] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-02-05T10:58:41] INFO [JIRAREPORTS.addMonthlyYTD:215] Starting YTD for Created VS resolved
+[2023-02-05T10:58:41] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-02-05T10:58:43] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2023-02-05T10:58:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2023-02-05T10:58:44] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2023-02-05T10:58:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2023-02-05T10:58:46] INFO [JIRAREPORTS.main:306] Finished start-end time procedure
+[2023-03-06T16:05:16] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2023-03-06T16:05:16] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2023-03-06T16:05:16] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2023-03-06T16:05:16] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2023-03-06T16:05:16] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2023-03-06T16:05:16] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-03-06T16:05:39] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2023-03-06T16:05:39] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2023-03-06T16:05:39] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2023-03-06T16:05:39] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2023-03-06T16:05:39] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2023-03-06T16:05:39] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-03-06T16:05:40] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-03-06T16:05:42] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-03-06T16:05:43] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-03-06T16:05:44] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-03-06T16:05:45] INFO [JIRAREPORTS.addMonthlyYTD:215] Starting YTD for Created VS resolved
+[2023-03-06T16:05:45] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-03-06T16:05:48] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2023-03-06T16:05:48] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2023-03-06T16:05:48] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2023-03-06T16:05:48] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2023-05-07T10:58:46] INFO [JIRAREPORTS.main:252] JiraReports is starting ...
+[2023-05-07T10:58:46] INFO [JIRAREPORTS.main:258] Starting config file parsing
+[2023-05-07T10:58:46] INFO [JIRAREPORTS.main:261] Finished config file parsing
+[2023-05-07T10:58:46] INFO [JIRAREPORTS.main:266] Start periodic procedure
+[2023-05-07T10:58:46] INFO [JIRAREPORTS.retriveReports:146] Starting retriveReports from JIRA
+[2023-05-07T10:58:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-05-07T10:58:46] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-05-07T10:58:48] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-05-07T10:58:49] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-05-07T10:58:50] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-05-07T10:58:50] INFO [JIRAREPORTS.addMonthlyYTD:215] Starting YTD for Created VS resolved
+[2023-05-07T10:58:50] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): ericsson-service.atlassian.net
+[2023-05-07T10:58:53] INFO [JIRAREPORTS.getToken:50] start getToken()
+[2023-05-07T10:58:53] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): login.microsoftonline.com
+[2023-05-07T10:58:53] INFO [JIRAREPORTS.getToken:62] Finished getToken()
+[2023-05-07T10:58:53] INFO [requests.packages.urllib3.connectionpool._new_conn:734] Starting new HTTPS connection (1): graph.microsoft.com
+[2023-05-07T10:58:56] INFO [JIRAREPORTS.main:306] Finished start-end time procedure

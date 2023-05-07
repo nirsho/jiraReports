@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sample files are for reference only and need to be reworked to suit network configuration requirements -->
+<!-- For more information about the tags in this file, refer to Auto Provisioning in the ENM Help Center -->
+<projectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfo.xsd">
+<name>Ap_test</name>
+<description>test_28_4</description>
+<creator>nirsho</creator>
+</projectInfo>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sample files are for reference only and need to be reworked to suit network configuration requirements -->
+<!-- For more information about the tags in this file, refer to Auto Provisioning in the ENM Help Center -->
+<nodeInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NodeInfo.xsd">
+
+<name>%NodeName%</name>
+<!-- Substitution variable="node_logical_name" area="COMMON" description="Specifies the logical name of the node, as identified by the management system. The value must be unique." flags="UNIQUE" -->
+<nodeIdentifier>20.Q2-R6A06</nodeIdentifier>
+<ipAddress>%OamAdd%</ipAddress>
+<nodeType>%NodeType%</nodeType>
+<ossPrefix>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERNC01,MeContext=%NodeName%</ossPrefix>
+<autoIntegration>
+<upgradePackageName>RadioNode CXP9024418/15 R37K05 21.Q3</upgradePackageName>
+</autoIntegration>
+
+<license>
+<installLicense>false</installLicense>
+</license>
+<!-- Adding maintenance user info such that ENM can enable initial services in the node -->
+<users>
+<secureUser>
+<name>rbs</name>
+<!-- Substitution variable="username_maint_user" area="COMMON" description="Defines the name of the maintenance user." -->
+<password>rbs</password>
+<!-- Substitution variable="password_maint_user" area="COMMON" description="Sets the SSH-based login password.
+         If the password is not set, SSH-based login is not available for the maintenance user.
+         The password must contain at least three lower-case, three upper-case, two numeric, and one special character." -->
+</secureUser>
+</users>
+
+<artifacts>
+<siteBasic>SiteBasic.xml</siteBasic>
+<siteInstallation>SiteInstallation.xml</siteInstallation>
+<siteEquipment>SiteEquipment.xml</siteEquipment>
+    <configurations>
+	<nodeConfiguration>Unlock_cells_file.xml</nodeConfiguration>
+    </configurations>
+</artifacts>
+
+
+</nodeInfo>
+

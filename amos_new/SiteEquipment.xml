@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<capabilities>
+		<capability>urn:ietf:params:netconf:base:1.0</capability>
+	</capabilities>
+</hello>
+]]>]]>
+<!-- This xml is automatically generated from ECT. Validated upon UP version CXP9024418/6-R85C103 -->
+
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0"
+     message-id="Configure FieldReplaceableUnit for BB, BB_R, Radio Units and Cabinets">
+   <edit-config>
+   		<target>
+			<running />
+		</target
+      <config xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+			<ManagedElement xmlns="urn:com:ericsson:ecim:ComTop">
+				<managedElementId>1</managedElementId>
+				<Equipment xmlns="urn:com:ericsson:ecim:ReqEquipment">
+					<equipmentId>1</equipmentId>
+					<FieldReplaceableUnit xmlns="urn:com:ericsson:ecim:ReqFieldReplaceableUnit">
+                  <fieldReplaceableUnitId>BB5216</fieldReplaceableUnitId>
+                  <administrativeState>UNLOCKED</administrativeState>
+                  <RiPort xmlns="urn:com:ericsson:ecim:ReqRiPort">
+                     <riPortId>A</riPortId>
+                  </RiPort>
+                  <RiPort xmlns="urn:com:ericsson:ecim:ReqRiPort">
+                     <riPortId>B</riPortId>
+                  </RiPort>
+                  <RiPort xmlns="urn:com:ericsson:ecim:ReqRiPort">
+                     <riPortId>C</riPortId>
+                  </RiPort>
+				  <RiPort xmlns="urn:com:ericsson:ecim:ReqRiPort">
+                     <riPortId>D</riPortId>
+                  </RiPort>
+                  <RiPort xmlns="urn:com:ericsson:ecim:ReqRiPort">
+                     <riPortId>E</riPortId>
+                  </RiPort>
+                  <RiPort xmlns="urn:com:ericsson:ecim:ReqRiPort">
+                     <riPortId>F</riPortId>
+                  </RiPort>
+				  
+					</FieldReplaceableUnit>
+               <!--This section create Radio units for sector1 with RBB=RBB22_1B-->
+               <FieldReplaceableUnit>
+                  <fieldReplaceableUnitId>RUS1-W21</fieldReplaceableUnitId>
+                  <administrativeState>UNLOCKED</administrativeState>
+                  <!--isSharedWithExternalMe>false</isSharedWithExternalMe-->
+                  <RfPort>
+                     <rfPortId>A</rfPortId>
+                     <administrativeState>UNLOCKED</administrativeState>
+                     <!--vswrSupervisionActive>false</vswrSupervisionActive>
+                     <!--vswrSupervisionSensitivity>-1</vswrSupervisionSensitivity-->
+                  </RfPort>
+                  <RfPort>
+                     <rfPortId>B</rfPortId>
+                     <administrativeState>UNLOCKED</administrativeState>
+                     <!--vswrSupervisionActive>false</vswrSupervisionActive>
+                     <vswrSupervisionSensitivity>-1</vswrSupervisionSensitivity-->
+                  </RfPort>
+				  <RfPort xmlns="urn:com:ericsson:ecim:ReqRfPort">
+				     <rfPortId>R</rfPortId>
+                     <vswrSupervisionActive>false</vswrSupervisionActive>
+                     <!--vswrSupervisionSensitivity>1</vswrSupervisionSensitivity>
+					 <administrativeState>UNLOCKED</administrativeState-->
+                  </RfPort>
+				  <!--RfPort xmlns="urn:com:ericsson:ecim:ReqRfPort">
+					 <rfPortId>RXA_IO</rfPortId>
+					 <vswrSupervisionActive>false</vswrSupervisionActive>
+					 <vswrSupervisionSensitivity>1</vswrSupervisionSensitivity>
+					 <administrativeState>LOCKED</administrativeState>
+			      </RfPort>
+				  <RfPort xmlns="urn:com:ericsson:ecim:ReqRfPort">
+					 <rfPortId>RXB_IO</rfPortId>
+					 <vswrSupervisionActive>false</vswrSupervisionActive>
+					 <vswrSupervisionSensitivity>1</vswrSupervisionSensitivity>
+					 <administrativeState>LOCKED</administrativeState>
+				  </RfPort-->
+                 <RiPort>
+                     <riPortId>DATA_1</riPortId>
+                  </RiPort>
+                  <RiPort>
+                     <riPortId>DATA_2</riPortId>
+                  </RiPort>
+               </FieldReplaceableUnit>
+               <!--This section create Radio units for sector2 with RBB=RBB22_1B-->
+               <FieldReplaceableUnit>
+                  <fieldReplaceableUnitId>RUS2-W21</fieldReplaceableUnitId>
+                  <administrativeState>UNLOCKED</administrativeState>
+                  <!--isSharedWithExternalMe>false</isSharedWithExternalMe-->
+                  <RfPort>
+                     <rfPortId>A</rfPortId>
+                     <administrativeState>UNLOCKED</administrativeState>
+                     <!--vswrSupervisionActive>false</vswrSupervisionActive>
+                     <vswrSupervisionSensitivity>-1</vswrSupervisionSensitivity-->
+                  </RfPort>
+                  <RfPort>
+                     <rfPortId>B</rfPortId>
+                     <administrativeState>UNLOCKED</administrativeState>
+                     <!--vswrSupervisionActive>false</vswrSupervisionActive>
+                     <vswrSupervisionSensitivity>-1</vswrSupervisionSensitivity-->
+                  </RfPort>
+				  <RfPort xmlns="urn:com:ericsson:ecim:ReqRfPort">
+				     <rfPortId>R</rfPortId>
+                     <!--vswrSupervisionActive>false</vswrSupervisionActive>
+                     <vswrSupervisionSensitivity>1</vswrSupervisionSensitivity>
+					 <administrativeState>UNLOCKED</administrativeState-->
+                  </RfPort>
+				  <!--fPort xmlns="urn:com:ericsson:ecim:ReqRfPort">
+					 <rfPortId>RXA_IO</rfPortId>
+					 <vswrSupervisionActive>false</vswrSupervisionActive>
+					 <vswrSupervisionSensitivity>1</vswrSupervisionSensitivity>
+					 <administrativeState>LOCKED</administrativeState>
+			      </RfPort>
+				  <RfPort xmlns="urn:com:ericsson:ecim:ReqRfPort">
+					 <rfPortId>RXB_IO</rfPortId>
+					 <vswrSupervisionActive>false</vswrSupervisionActive>
+					 <vswrSupervisionSensitivity>1</vswrSupervisionSensitivity>
+					 <administrativeState>LOCKED</administrativeState>
+				  </RfPort-->
+                  <RiPort>
+                     <riPortId>DATA_1</riPortId>
+                  </RiPort>
+                  <RiPort>
+                     <riPortId>DATA_2</riPortId>
+                  </RiPort>
+               </FieldReplaceableUnit>
+               <!--This section create Radio units for sector3 with RBB=RBB22_1B-->
+               <FieldReplaceableUnit>
+                  <fieldReplaceableUnitId>RUS3-W21</fieldReplaceableUnitId>
+                  <administrativeState>UNLOCKED</administrativeState>
+                  <!--isSharedWithExternalMe>false</isSharedWithExternalMe-->
+                  <RfPort>
+                     <rfPortId>A</rfPortId>
+                     <administrativeState>UNLOCKED</administrativeState>
+                     <!--vswrSupervisionActive>false</vswrSupervisionActive>
+                     <vswrSupervisionSensitivity>-1</vswrSupervisionSensitivity-->
+                  </RfPort>
+                  <RfPort>
+                     <rfPortId>B</rfPortId>
+                     <administrativeState>UNLOCKED</administrativeState>
+                     <!--vswrSupervisionActive>false</vswrSupervisionActive>
+                     <vswrSupervisionSensitivity>-1</vswrSupervisionSensitivity-->
+                  </RfPort>
+				  
+				  <RfPort xmlns="urn:com:ericsson:ecim:ReqRfPort">
+				     <rfPortId>R</rfPortId>
+                     <vswrSupervisionActive>false</vswrSupervisionActive>
+                     <!--vswrSupervisionSensitivity>1</vswrSupervisionSensitivity>
+					 <administrativeState>UNLOCKED</administrativeState->
+                  </RfPort>
+				  <!--RfPort xmlns="urn:com:ericsson:ecim:ReqRfPort">
+					 <rfPortId>RXA_IO</rfPortId>
+					 <vswrSupervisionActive>false</vswrSupervisionActive>
+					 <vswrSupervisionSensitivity>1</vswrSupervisionSensitivity>
+					 <administrativeState>LOCKED</administrativeState>
+			      </RfPort>
+				  <RfPort xmlns="urn:com:ericsson:ecim:ReqRfPort">
+					 <rfPortId>RXB_IO</rfPortId>
+					 <vswrSupervisionActive>false</vswrSupervisionActive>
+					 <vswrSupervisionSensitivity>1</vswrSupervisionSensitivity>
+					 <administrativeState>LOCKED</administrativeState>
+				  </RfPort-->
+                 <RiPort>
+                     <riPortId>DATA_1</riPortId>
+                  </RiPort>
+                  <RiPort>
+                     <riPortId>DATA_2</riPortId>
+                  </RiPort>
+               </FieldReplaceableUnit>
+               <RiLink>
+                  <riLinkId>A</riLinkId>
+                  <riPortRef1>ManagedElement=1,Equipment=1,FieldReplaceableUnit=BB5216,RiPort=A</riPortRef1>
+                  <riPortRef2>ManagedElement=1,Equipment=1,FieldReplaceableUnit=RUS1-W21,RiPort=DATA_1</riPortRef2>
+               </RiLink>
+               <RiLink>
+                  <riLinkId>C</riLinkId>
+                  <riPortRef1>ManagedElement=1,Equipment=1,FieldReplaceableUnit=BB5216,RiPort=C</riPortRef1>
+                  <riPortRef2>ManagedElement=1,Equipment=1,FieldReplaceableUnit=RUS2-W21,RiPort=DATA_1</riPortRef2>
+               </RiLink>
+               <RiLink>
+                  <riLinkId>S3-1</riLinkId>
+                  <riPortRef1>ManagedElement=1,Equipment=1,FieldReplaceableUnit=BB5216,RiPort=E</riPortRef1>
+                  <riPortRef2>ManagedElement=1,Equipment=1,FieldReplaceableUnit=RUS3-W21,RiPort=DATA_1</riPortRef2>
+               </RiLink>
+
+				</Equipment>
+
+
+
+			<!-- ANTENNA CONFIGURATION 3G START-->
+            <Equipment xmlns="urn:com:ericsson:ecim:ReqEquipment">
+               <equipmentId>1</equipmentId>
+               <!--Create AntennaUnitGroup and RfBranches for Sector=1 with RBB=RBB22_1B and ABB=ABB2_1A-->
+               <AntennaUnitGroup>
+                  <antennaUnitGroupId>WS1</antennaUnitGroupId>
+                  <AntennaUnit>
+                     <antennaUnitId>1</antennaUnitId>
+                     <AntennaSubunit>
+                        <antennaSubunitId>1</antennaSubunitId>
+                        <AuPort>
+                           <auPortId>1</auPortId>
+                        </AuPort>
+                        <AuPort>
+                           <auPortId>2</auPortId>
+                        </AuPort>
+                     </AntennaSubunit>
+                  </AntennaUnit>
+                  <RfBranch>
+                     <rfBranchId>1</rfBranchId>
+                     <auPortRef>ManagedElement=1,Equipment=1,AntennaUnitGroup=WS1,AntennaUnit=1,AntennaSubunit=1,AuPort=1</auPortRef>
+                     <rfPortRef>ManagedElement=1,Equipment=1,FieldReplaceableUnit=RUS1-W21,RfPort=A</rfPortRef>
+                     <!--Set attenuation and delay values for first band-->
+                     <!--dlAttenuationPerFqRange>18</dlAttenuationPerFqRange>
+                     <ulAttenuationPerFqRange>18</ulAttenuationPerFqRange>
+                     <dlTrafficDelayPerFqRange>-1</dlTrafficDelayPerFqRange>
+                     <ulTrafficDelayPerFqRange>-1</ulTrafficDelayPerFqRange-->
+					<dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation>
+					<ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation>
+					<dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay>
+					<ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay>
+
+                     <!--Set attenuation and delay values for second band if dual/triple band radio-->
+                     <!--dlAttenuationPerFqRange>18</dlAttenuationPerFqRange>
+                     <ulAttenuationPerFqRange>18</ulAttenuationPerFqRange>
+                     <dlTrafficDelayPerFqRange>-1</dlTrafficDelayPerFqRange>
+                     <ulTrafficDelayPerFqRange>-1</ulTrafficDelayPerFqRange-->
+					<dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation>
+					<ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation>
+					<dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay>
+					<ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay>
+
+                  </RfBranch>			
+                  <RfBranch>
+                     <rfBranchId>2</rfBranchId>
+                     <auPortRef>ManagedElement=1,Equipment=1,AntennaUnitGroup=WS1,AntennaUnit=1,AntennaSubunit=1,AuPort=2</auPortRef>
+                     <rfPortRef>ManagedElement=1,Equipment=1,FieldReplaceableUnit=RUS1-W21,RfPort=B</rfPortRef>
+                     <!--Set attenuation and delay values for first band-->
+                     <!--dlAttenuationPerFqRange>18</dlAttenuationPerFqRange>
+                     <ulAttenuationPerFqRange>18</ulAttenuationPerFqRange>
+                     <dlTrafficDelayPerFqRange>-1</dlTrafficDelayPerFqRange>
+                     <ulTrafficDelayPerFqRange>-1</ulTrafficDelayPerFqRange-->
+					<dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation>
+					<ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation>
+					<dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay>
+					<ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay>
+					 
+                     <!--Set attenuation and delay values for second band if dual/triple band radio-->
+                     <!--dlAttenuationPerFqRange>18</dlAttenuationPerFqRange>
+                     <ulAttenuationPerFqRange>18</ulAttenuationPerFqRange>
+                     <dlTrafficDelayPerFqRange>-1</dlTrafficDelayPerFqRange>
+                     <ulTrafficDelayPerFqRange>-1</ulTrafficDelayPerFqRange-->
+					<dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation>
+					<ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation>
+					<dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay>
+					<ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay>
+
+                  </RfBranch>			
+               <!--Create AntennaUnitGroup and RfBranches for Sector=2 with RBB=RBB22_1B and ABB=ABB2_1A-->
+               <AntennaUnitGroup>
+                  <antennaUnitGroupId>WS2</antennaUnitGroupId>
+                  <AntennaUnit>
+                     <antennaUnitId>1</antennaUnitId>
+                     <AntennaSubunit>
+                        <antennaSubunitId>1</antennaSubunitId>
+                        <AuPort>
+                           <auPortId>1</auPortId>
+                        </AuPort>
+                        <AuPort>
+                           <auPortId>2</auPortId>
+                        </AuPort>
+                     </AntennaSubunit>
+                  </AntennaUnit>
+                  <RfBranch>
+                     <rfBranchId>1</rfBranchId>
+                     <auPortRef>ManagedElement=1,Equipment=1,AntennaUnitGroup=WS2,AntennaUnit=1,AntennaSubunit=1,AuPort=1</auPortRef>
+                     <rfPortRef>ManagedElement=1,Equipment=1,FieldReplaceableUnit=RUS2-W21,RfPort=A</rfPortRef>
+                     <!--Set attenuation and delay values for first band-->
+                     <!--dlAttenuationPerFqRange>18</dlAttenuationPerFqRange>
+                     <ulAttenuationPerFqRange>18</ulAttenuationPerFqRange>
+                     <dlTrafficDelayPerFqRange>-1</dlTrafficDelayPerFqRange>
+                     <ulTrafficDelayPerFqRange>-1</ulTrafficDelayPerFqRange-->
+					<dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation>
+					<ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation>
+					<dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay>
+					<ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay>
+					 
+                     <!--Set attenuation and delay values for second band if dual/triple band radio-->
+                     <!--dlAttenuationPerFqRange>18</dlAttenuationPerFqRange>
+                     <ulAttenuationPerFqRange>18</ulAttenuationPerFqRange>
+                     <dlTrafficDelayPerFqRange>-1</dlTrafficDelayPerFqRange>
+                     <ulTrafficDelayPerFqRange>-1</ulTrafficDelayPerFqRange-->
+					<dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation>
+					<ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation>
+					<dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay>
+					<ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay>
+					 
+                  </RfBranch>
+                  <RfBranch>
+                     <rfBranchId>2</rfBranchId>
+                     <auPortRef>ManagedElement=1,Equipment=1,AntennaUnitGroup=WS2,AntennaUnit=1,AntennaSubunit=1,AuPort=2</auPortRef>
+                     <rfPortRef>ManagedElement=1,Equipment=1,FieldReplaceableUnit=RUS2-W21,RfPort=B</rfPortRef>
+                     <!--Set attenuation and delay values for first band-->
+                     <!--dlAttenuationPerFqRange>18</dlAttenuationPerFqRange>
+                     <ulAttenuationPerFqRange>18</ulAttenuationPerFqRange>
+                     <dlTrafficDelayPerFqRange>-1</dlTrafficDelayPerFqRange>
+                     <ulTrafficDelayPerFqRange>-1</ulTrafficDelayPerFqRange-->
+					<dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation>
+					<ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation>
+					<dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay>
+					<ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay>
+					 
+                     <!--Set attenuation and delay values for second band if dual/triple band radio-->
+                     <!--dlAttenuationPerFqRange>18</dlAttenuationPerFqRange>
+                     <ulAttenuationPerFqRange>18</ulAttenuationPerFqRange>
+                     <dlTrafficDelayPerFqRange>-1</dlTrafficDelayPerFqRange>
+                     <ulTrafficDelayPerFqRange>-1</ulTrafficDelayPerFqRange-->
+					<dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation>
+					<ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation>
+					<dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay>
+					<ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay>
+				 
+                  </RfBranch>
+               </AntennaUnitGroup>			
+               <!--Create AntennaUnitGroup and RfBranches for Sector=3 with RBB=RBB22_1B and ABB=ABB2_1A-->
+               <AntennaUnitGroup>
+                  <antennaUnitGroupId>WS3</antennaUnitGroupId>
+                  <AntennaUnit>
+                     <antennaUnitId>1</antennaUnitId>
+                     <AntennaSubunit>
+                        <antennaSubunitId>1</antennaSubunitId>
+                        <AuPort>
+                           <auPortId>1</auPortId>
+                        </AuPort>
+                        <AuPort>
+                           <auPortId>2</auPortId>
+                        </AuPort>
+                     </AntennaSubunit>
+                  </AntennaUnit>
+                  <RfBranch>
+                     <rfBranchId>1</rfBranchId>
+                     <auPortRef>ManagedElement=1,Equipment=1,AntennaUnitGroup=WS3,AntennaUnit=1,AntennaSubunit=1,AuPort=1</auPortRef>
+                     <rfPortRef>ManagedElement=1,Equipment=1,FieldReplaceableUnit=RUS3-W21,RfPort=A</rfPortRef>
+                     <!--Set attenuation and delay values for first band-->
+                     <!--dlAttenuationPerFqRange>18</dlAttenuationPerFqRange>
+                     <ulAttenuationPerFqRange>18</ulAttenuationPerFqRange>
+                     <dlTrafficDelayPerFqRange>-1</dlTrafficDelayPerFqRange>
+                     <ulTrafficDelayPerFqRange>-1</ulTrafficDelayPerFqRange-->
+					<dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation>
+					<ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation>
+					<dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay>
+					<ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay>
+                     <!--Set attenuation and delay values for second band if dual/triple band radio-->
+                     <!--dlAttenuationPerFqRange>18</dlAttenuationPerFqRange>
+                     <ulAttenuationPerFqRange>18</ulAttenuationPerFqRange>
+                     <dlTrafficDelayPerFqRange>-1</dlTrafficDelayPerFqRange>
+                     <ulTrafficDelayPerFqRange>-1</ulTrafficDelayPerFqRange-->
+					<dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation>
+					<ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation>
+					<dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay>
+					<ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay>
+                  </RfBranch>
+                  <RfBranch>
+                     <rfBranchId>2</rfBranchId>
+                     <auPortRef>ManagedElement=1,Equipment=1,AntennaUnitGroup=WS3,AntennaUnit=1,AntennaSubunit=1,AuPort=2</auPortRef>
+                     <rfPortRef>ManagedElement=1,Equipment=1,FieldReplaceableUnit=RUS3-W21,RfPort=B</rfPortRef>
+                     <!--Set attenuation and delay values for first band-->
+                     <!--dlAttenuationPerFqRange>18</dlAttenuationPerFqRange>
+                     <ulAttenuationPerFqRange>18</ulAttenuationPerFqRange>
+                     <dlTrafficDelayPerFqRange>-1</dlTrafficDelayPerFqRange>
+                     <ulTrafficDelayPerFqRange>-1</ulTrafficDelayPerFqRange-->
+					<dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation>
+					<ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation>
+					<dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay>
+					<ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay>
+                     <!--Set attenuation and delay values for second band if dual/triple band radio-->
+                     <!--dlAttenuationPerFqRange>18</dlAttenuationPerFqRange>
+                     <ulAttenuationPerFqRange>18</ulAttenuationPerFqRange>
+                     <dlTrafficDelayPerFqRange>-1</dlTrafficDelayPerFqRange>
+                     <ulTrafficDelayPerFqRange>-1</ulTrafficDelayPerFqRange-->
+					<dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation><dlAttenuation>18</dlAttenuation>
+					<ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation><ulAttenuation>18</ulAttenuation>
+					<dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay><dlTrafficDelay>-1</dlTrafficDelay>
+					<ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay><ulTrafficDelay>-1</ulTrafficDelay>
+					 
+                  </RfBranch>
+               </AntennaUnitGroup>			
+			</Equipment>
+				<!-- ANTENNA CONFIGURATION 3G END-->
+				
+				<!--EquipmentSupportFunction xmlns="urn:com:ericsson:ecim:ResEquipmentSupportFunction">
+					<equipmentSupportFunctionId>1</equipmentSupportFunctionId>
+					<supportSystemControl>true</supportSystemControl>
+				</EquipmentSupportFunction-->
+				<NodeSupport xmlns="urn:com:ericsson:ecim:RmeSupport">
+					<nodeSupportId>1</nodeSupportId>
+					<MpClusterHandling xmlns="urn:com:ericsson:ecim:RmeMpClusterHandling">
+						<mpClusterHandlingId>1</mpClusterHandlingId>
+						<primaryCoreRef>ManagedElement=1,Equipment=1,FieldReplaceableUnit=1</primaryCoreRef>
+					</MpClusterHandling>
+<!--SECTOR OCNFIG 4G start-->
+               <!--Create SectorEquipmentFunction and References to RfBranches and CcBranches for Sector=1 with ABB=ABB2_1A-->
+               <SectorEquipmentFunction>
+                  <sectorEquipmentFunctionId>WS1</sectorEquipmentFunctionId>
+                  <administrativeState>UNLOCKED</administrativeState>
+                  <rfBranchRef>ManagedElement=1,Equipment=1,AntennaUnitGroup=WS1,RfBranch=1</rfBranchRef>
+                  <rfBranchRef>ManagedElement=1,Equipment=1,AntennaUnitGroup=WS1,RfBranch=2</rfBranchRef>
+               </SectorEquipmentFunction>
+               <!--Create SectorEquipmentFunction and References to RfBranches and CcBranches for Sector=2 with ABB=ABB2_1A-->
+               <SectorEquipmentFunction>
+                  <sectorEquipmentFunctionId>WS2</sectorEquipmentFunctionId>
+                  <administrativeState>UNLOCKED</administrativeState>
+                  <rfBranchRef>ManagedElement=1,Equipment=1,AntennaUnitGroup=WS2,RfBranch=1</rfBranchRef>
+                  <rfBranchRef>ManagedElement=1,Equipment=1,AntennaUnitGroup=WS2,RfBranch=2</rfBranchRef>
+               </SectorEquipmentFunction>
+               <!--Create SectorEquipmentFunction and References to RfBranches and CcBranches for Sector=3 with ABB=ABB2_1A-->
+               <SectorEquipmentFunction>
+                  <sectorEquipmentFunctionId>WS3</sectorEquipmentFunctionId>
+                  <administrativeState>UNLOCKED</administrativeState>
+                  <rfBranchRef>ManagedElement=1,Equipment=1,AntennaUnitGroup=WS3,RfBranch=1</rfBranchRef>
+                  <rfBranchRef>ManagedElement=1,Equipment=1,AntennaUnitGroup=WS3,RfBranch=2</rfBranchRef>
+               </SectorEquipmentFunction>
+
+         
+
+				</NodeSupport>
+			</ManagedElement>
+		</config>
+	</edit-config>
+</rpc>
+]]>]]>
+<rpc message-id="Closing" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<close-session/>
+</rpc>
+]]>]]>
